@@ -1,0 +1,3 @@
+owlready2==0.45
+networkx==3.2.1
+matplotlib==3.8.2 
