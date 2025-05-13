@@ -1,3 +1,4 @@
-owlready2==0.45
-networkx==3.2.1
-matplotlib==3.8.2 
+pymupdf==1.23.8
+networkx==3.1
+python-Levenshtein==0.21.1
+tqdm==4.66.1 
