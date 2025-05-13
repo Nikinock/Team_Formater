@@ -3,34 +3,43 @@ import networkx as nx
 from collections import defaultdict
 from itertools import combinations
 import matplotlib.pyplot as plt
-import numpy as np
 from scipy.stats import chi2
-import sys
 
-# Получение порогового значения n из аргументов командной строки
-if len(sys.argv) != 2:
-    print("Использование: python weight_creator.py <пороговое_значение_n>")
-    sys.exit(1)
+# Пороговые значения для метрик
+JACCARD_THRESHOLD = 0.01
+LIFT_THRESHOLD = 10
+CHI_SQUARE_THRESHOLD = 3.841
 
-try:
-    n = float(sys.argv[1])
-except ValueError:
-    print("Пороговое значение должно быть числом")
-    sys.exit(1)
 
-def normalize(term):
-    return term.strip().lower()
+def png_graph_creator():
+    plt.figure(figsize=(15, 6))
+    # График распределения меры Жаккара
+    plt.subplot(1, 2, 1)
+    plt.hist(jaccard_weights, bins=50, alpha=0.7, color='blue')
+    plt.title('Распределение меры Жаккара')
+    plt.xlabel('Значение меры Жаккара')
+    plt.ylabel('Количество пар')
+    plt.grid(True, alpha=0.3)
+    # График распределения метрики Lift
+    plt.subplot(1, 2, 2)
+    plt.hist(lift_weights, bins=50, alpha=0.7, color='green')
+    plt.title('Распределение метрики Lift')
+    plt.xlabel('Значение метрики Lift')
+    plt.ylabel('Количество пар')
+    plt.grid(True, alpha=0.3)
+    plt.tight_layout()
+    plt.savefig('metrics_distribution.png')
+    plt.close()
+
 
 # Загрузка графа
 G = nx.read_gml("ml_ontology_graph_normalized.gml")
-
-# Создание словаря нормализованных названий
 graph_terms = list(G.nodes)
-normalized_to_original = {normalize(t): t for t in graph_terms}
 
 # Загрузка упоминаний
 with open("entity_counts_by_parts.json", "r", encoding="utf-8") as f:
     entity_data = json.load(f)
+
 
 # Подсчёт упоминаний
 individual_counts = defaultdict(int)
@@ -38,15 +47,11 @@ co_occurrence_counts = defaultdict(int)
 
 for text in entity_data:
     for part in text["parts"]:
-        # нормализуем термины из части
-        normalized_terms = []
         for term in part["terms"].keys():
-            norm = normalize(term)
-            if norm in normalized_to_original:
-                normalized_terms.append(norm)
-                individual_counts[norm] += part["terms"][term]
-
-        for t1, t2 in combinations(normalized_terms, 2):
+            if term in graph_terms:
+                individual_counts[term] += part["terms"][term]
+                
+        for t1, t2 in combinations(part["terms"].keys(), 2):
             key = tuple(sorted((t1, t2)))
             co_occurrence_counts[key] += 1
 
@@ -55,30 +60,11 @@ new_edges_added = 0
 updated_edges = 0
 weights = []
 
-for (t1_norm, t2_norm), co_count in co_occurrence_counts.items():
-    t1 = normalized_to_original[t1_norm]
-    t2 = normalized_to_original[t2_norm]
-
-    min_count = min(individual_counts[t1_norm], individual_counts[t2_norm])
+# Подсчёт весов
+for (t1, t2), co_count in co_occurrence_counts.items():
+    min_count = min(individual_counts[t1], individual_counts[t2])
     weight = co_count / min_count if min_count > 0 else 0
-    final_weight = 1 - weight  # Новый итоговый вес
-
-    if weight > n:
-        weights.append(final_weight)
-
-    if G.has_edge(t1, t2):
-        if weight > n:
-            G[t1][t2]["co_weight"] = final_weight
-            updated_edges += 1
-    else:
-        if weight > n:
-            G.add_edge(t1, t2, co_weight=final_weight)
-            new_edges_added += 1
-
-# Всем не обновлённым рёбрам присваиваем вес 1
-for u, v, data in G.edges(data=True):
-    if "co_weight" not in data:
-        data["co_weight"] = 1
+    weights.append(weight)
 
 # Статистика по весам
 if weights:
@@ -92,15 +78,12 @@ else:
 jaccard_weights = []
 lift_weights = []
 chi_square_weights = []
-total_documents = len(entity_data)  # Общее количество документов
-critical_value = 3.841  # Критическое значение для α=0.05 и df=1
+total_documents = len(entity_data)
 
-for (t1_norm, t2_norm), co_count in co_occurrence_counts.items():
-    t1 = normalized_to_original[t1_norm]
-    t2 = normalized_to_original[t2_norm]
+for (t1, t2), co_count in co_occurrence_counts.items():
     
-    n1 = individual_counts[t1_norm]
-    n2 = individual_counts[t2_norm]
+    n1 = individual_counts[t1]
+    n2 = individual_counts[t2]
     
     # Расчет меры Жаккара
     jaccard = co_count / (n1 + n2 - co_count) if (n1 + n2 - co_count) > 0 else 0
@@ -134,41 +117,23 @@ for (t1_norm, t2_norm), co_count in co_occurrence_counts.items():
     
     chi_square_weights.append(chi_square)
     
-    # Проверяем все условия перед добавлением в граф
-    if jaccard >= 0.02 and lift >= 20 and chi_square >= 3:
+    # Проверяем все метрики перед добавлением в граф
+    if (jaccard >= JACCARD_THRESHOLD and 
+        lift >= LIFT_THRESHOLD and 
+        chi_square >= CHI_SQUARE_THRESHOLD):
+        
         if G.has_edge(t1, t2):
-            G[t1][t2]["jaccard_weight"] = jaccard
-            G[t1][t2]["lift_weight"] = lift
-            G[t1][t2]["chi_square"] = chi_square
-            G[t1][t2]["co_weight"] = weight
+            G[t1][t2]["co_weight"] = 1 - weight
             updated_edges += 1
         else:
-            G.add_edge(t1, t2, jaccard_weight=jaccard, lift_weight=lift, 
-                      chi_square=chi_square, co_weight=weight)
+            G.add_edge(t1, t2, co_weight=1 - weight)
             new_edges_added += 1
 
-# Создание графиков
-plt.figure(figsize=(15, 6))
+for u, v, g in G.edges(data=True):
+    if 'co_weight' not in g or not g['co_weight']:
+        g['co_weight'] = 1
 
-# График распределения меры Жаккара
-plt.subplot(1, 2, 1)
-plt.hist(jaccard_weights, bins=50, alpha=0.7, color='blue')
-plt.title('Распределение меры Жаккара')
-plt.xlabel('Значение меры Жаккара')
-plt.ylabel('Количество пар')
-plt.grid(True, alpha=0.3)
-
-# График распределения метрики Lift
-plt.subplot(1, 2, 2)
-plt.hist(lift_weights, bins=50, alpha=0.7, color='green')
-plt.title('Распределение метрики Lift')
-plt.xlabel('Значение метрики Lift')
-plt.ylabel('Количество пар')
-plt.grid(True, alpha=0.3)
-
-plt.tight_layout()
-plt.savefig('metrics_distribution.png')
-plt.close()
+png_graph_creator()
 
 # Вывод статистики по обеим метрикам
 if jaccard_weights:
@@ -200,7 +165,7 @@ if chi_square_weights:
     max_chi = max(chi_square_weights)
     min_chi = min(chi_square_weights)
     avg_chi = sum(chi_square_weights) / len(chi_square_weights)
-    significant_chi_count = sum(1 for x in chi_square_weights if x > critical_value)
+    significant_chi_count = sum(1 for x in chi_square_weights if x > CHI_SQUARE_THRESHOLD)
     p_values = [1 - chi2.cdf(x, 1) for x in chi_square_weights if x > 0]
 else:
     max_chi = min_chi = avg_chi = 0
@@ -211,18 +176,18 @@ print("\n--- Статистика по критерию хи-квадрат ---"
 print(f"Максимальное значение: {max_chi:.4f}")
 print(f"Минимальное ненулевое значение: {min_chi:.4f}")
 print(f"Среднее значение: {avg_chi:.4f}")
-print(f"Количество значимых связей (χ² > {critical_value}): {significant_chi_count}")
+print(f"Количество значимых связей (χ² > {CHI_SQUARE_THRESHOLD}): {significant_chi_count}")
 if p_values:
     print(f"Среднее p-value для значимых связей: {sum(p_values)/len(p_values):.4f}")
 
 # Анализ наиболее значимых связей по хи-квадрат
-significant_chi_pairs = [(t1, t2, chi) for (t1, t2), chi in zip(co_occurrence_counts.keys(), chi_square_weights) if chi > critical_value]
+significant_chi_pairs = [(t1, t2, chi) for (t1, t2), chi in zip(co_occurrence_counts.keys(), chi_square_weights) if chi > CHI_SQUARE_THRESHOLD]
 significant_chi_pairs.sort(key=lambda x: x[2], reverse=True)
 
 print("\n--- Топ-5 наиболее значимых пар по критерию хи-квадрат ---")
 for t1, t2, chi in significant_chi_pairs[:5]:
     p_value = 1 - chi2.cdf(chi, 1)
-    print(f"{normalized_to_original[t1]} - {normalized_to_original[t2]}:")
+    print(f"{t1} - {t2}:")
     print(f"  χ² = {chi:.4f}")
     print(f"  p-value = {p_value:.4f}")
 

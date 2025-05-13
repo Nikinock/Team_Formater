@@ -2977,17 +2977,7 @@ graph [
   edge [
     source 0
     target 50
-    co_weight 0.0
-  ]
-  edge [
-    source 0
-    target 388
-    co_weight 0.0
-  ]
-  edge [
-    source 0
-    target 417
-    co_weight 0.0
+    co_weight 0.9375
   ]
   edge [
     source 1
@@ -3008,16 +2998,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 8
-    target 274
-    co_weight 0.9311594202898551
-  ]
-  edge [
-    source 8
-    target 255
-    co_weight 0.9285714285714286
-  ]
-  edge [
     source 9
     target 482
     relation "HAS_PROPERTY"
@@ -3036,126 +3016,16 @@ graph [
     co_weight 1
   ]
   edge [
-    source 9
-    target 373
-    co_weight 0.9227019498607243
-  ]
-  edge [
-    source 9
-    target 90
-    co_weight 0.9101671309192201
-  ]
-  edge [
-    source 9
-    target 409
-    co_weight 0.8541666666666666
-  ]
-  edge [
-    source 9
-    target 250
-    co_weight 0.8653846153846154
-  ]
-  edge [
-    source 9
-    target 311
-    co_weight 0.0
-  ]
-  edge [
-    source 9
-    target 312
-    co_weight 0.875
-  ]
-  edge [
-    source 9
-    target 238
-    co_weight 0.9325842696629214
-  ]
-  edge [
-    source 9
-    target 291
-    co_weight 0.9230769230769231
-  ]
-  edge [
     source 10
     target 8
     relation "IS_A"
     co_weight 1
   ]
   edge [
-    source 10
-    target 11
-    co_weight 0.6716417910447761
-  ]
-  edge [
-    source 10
-    target 162
-    co_weight 0.9169054441260744
-  ]
-  edge [
-    source 10
-    target 154
-    co_weight 0.9
-  ]
-  edge [
-    source 10
-    target 86
-    co_weight 0.9398280802292264
-  ]
-  edge [
-    source 10
-    target 381
-    co_weight 0.9255014326647565
-  ]
-  edge [
-    source 10
-    target 122
-    co_weight 0.9398280802292264
-  ]
-  edge [
-    source 10
-    target 353
-    co_weight 0.5
-  ]
-  edge [
     source 11
     target 51
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 11
-    target 136
-    co_weight 0.835820895522388
-  ]
-  edge [
-    source 11
-    target 86
-    co_weight 0.8955223880597015
-  ]
-  edge [
-    source 11
-    target 162
-    co_weight 0.8805970149253731
-  ]
-  edge [
-    source 11
-    target 274
-    co_weight 0.9104477611940298
-  ]
-  edge [
-    source 11
-    target 161
-    co_weight 0.8955223880597015
-  ]
-  edge [
-    source 11
-    target 381
-    co_weight 0.9104477611940298
-  ]
-  edge [
-    source 11
-    target 122
-    co_weight 0.8805970149253731
   ]
   edge [
     source 12
@@ -3166,21 +3036,6 @@ graph [
   edge [
     source 12
     target 252
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 12
-    target 274
-    co_weight 0.9375
-  ]
-  edge [
-    source 12
-    target 90
-    co_weight 0.9375
-  ]
-  edge [
-    source 12
-    target 173
     co_weight 0.9375
   ]
   edge [
@@ -3188,16 +3043,6 @@ graph [
     target 49
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 13
-    target 90
-    co_weight 0.8181818181818181
-  ]
-  edge [
-    source 13
-    target 147
-    co_weight 0.9090909090909091
   ]
   edge [
     source 14
@@ -3221,198 +3066,18 @@ graph [
     source 17
     target 18
     relation "IS_A"
-    co_weight 0.8413793103448276
-  ]
-  edge [
-    source 17
-    target 272
-    co_weight 0.896551724137931
-  ]
-  edge [
-    source 17
-    target 361
-    co_weight 0.8551724137931034
-  ]
-  edge [
-    source 17
-    target 136
-    co_weight 0.8620689655172413
-  ]
-  edge [
-    source 17
-    target 368
-    co_weight 0.8413793103448276
-  ]
-  edge [
-    source 17
-    target 111
-    co_weight 0.7931034482758621
-  ]
-  edge [
-    source 17
-    target 161
-    co_weight 0.8551724137931034
-  ]
-  edge [
-    source 17
-    target 194
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 17
-    target 195
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 17
-    target 279
-    co_weight 0.8827586206896552
-  ]
-  edge [
-    source 17
-    target 51
-    co_weight 0.8827586206896552
-  ]
-  edge [
-    source 17
-    target 137
-    co_weight 0.8275862068965517
-  ]
-  edge [
-    source 17
-    target 420
-    co_weight 0.8
-  ]
-  edge [
-    source 17
-    target 96
-    co_weight 0.9120879120879121
-  ]
-  edge [
-    source 17
-    target 114
-    co_weight 0.8620689655172413
-  ]
-  edge [
-    source 17
-    target 381
-    co_weight 0.8551724137931034
-  ]
-  edge [
-    source 17
-    target 84
-    co_weight 0.9103448275862069
-  ]
-  edge [
-    source 17
-    target 106
-    co_weight 0.8235294117647058
+    co_weight 1
   ]
   edge [
     source 17
     target 204
-    co_weight 0.4444444444444444
-  ]
-  edge [
-    source 17
-    target 432
-    co_weight 0.8758620689655172
-  ]
-  edge [
-    source 17
-    target 117
-    co_weight 0.75
-  ]
-  edge [
-    source 17
-    target 364
-    co_weight 0.9166666666666666
+    co_weight 0.9375
   ]
   edge [
     source 18
     target 51
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 18
-    target 368
-    co_weight 0.8856304985337243
-  ]
-  edge [
-    source 18
-    target 403
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 18
-    target 272
-    co_weight 0.8881578947368421
-  ]
-  edge [
-    source 18
-    target 361
-    co_weight 0.9048387096774193
-  ]
-  edge [
-    source 18
-    target 396
-    co_weight 0.9316770186335404
-  ]
-  edge [
-    source 18
-    target 382
-    co_weight 0.9338842975206612
-  ]
-  edge [
-    source 18
-    target 282
-    co_weight 0.9
-  ]
-  edge [
-    source 18
-    target 192
-    co_weight 0.7721518987341772
-  ]
-  edge [
-    source 18
-    target 195
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 18
-    target 194
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 18
-    target 106
-    co_weight 0.8529411764705882
-  ]
-  edge [
-    source 18
-    target 420
-    co_weight 0.9333333333333333
-  ]
-  edge [
-    source 18
-    target 176
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 18
-    target 421
-    co_weight 0.5
-  ]
-  edge [
-    source 18
-    target 263
-    co_weight 0.9
-  ]
-  edge [
-    source 18
-    target 204
-    co_weight 0.7777777777777778
   ]
   edge [
     source 19
@@ -3592,313 +3257,13 @@ graph [
     source 48
     target 49
     relation "IS_A"
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 48
-    target 90
-    co_weight 0.7777777777777778
-  ]
-  edge [
-    source 48
-    target 330
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 48
-    target 86
-    co_weight 0.7777777777777778
-  ]
-  edge [
-    source 48
-    target 274
-    co_weight 0.7777777777777778
-  ]
-  edge [
-    source 48
-    target 316
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 48
-    target 172
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 48
-    target 51
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 48
-    target 161
-    co_weight 0.8888888888888888
+    co_weight 1
   ]
   edge [
     source 49
     target 494
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 49
-    target 90
-    co_weight 0.9205298013245033
-  ]
-  edge [
-    source 49
-    target 162
-    co_weight 0.9282523729759911
-  ]
-  edge [
-    source 49
-    target 82
-    co_weight 0.8086642599277978
-  ]
-  edge [
-    source 49
-    target 144
-    co_weight 0.8804220398593201
-  ]
-  edge [
-    source 49
-    target 9
-    co_weight 0.9296657381615598
-  ]
-  edge [
-    source 49
-    target 236
-    co_weight 0.9228804902962207
-  ]
-  edge [
-    source 49
-    target 136
-    co_weight 0.9236203090507726
-  ]
-  edge [
-    source 49
-    target 382
-    co_weight 0.884297520661157
-  ]
-  edge [
-    source 49
-    target 67
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 49
-    target 211
-    co_weight 0.9224376731301939
-  ]
-  edge [
-    source 49
-    target 182
-    co_weight 0.8506493506493507
-  ]
-  edge [
-    source 49
-    target 187
-    co_weight 0.9388489208633094
-  ]
-  edge [
-    source 49
-    target 108
-    co_weight 0.8322147651006712
-  ]
-  edge [
-    source 49
-    target 233
-    co_weight 0.9248826291079812
-  ]
-  edge [
-    source 49
-    target 316
-    co_weight 0.9
-  ]
-  edge [
-    source 49
-    target 315
-    co_weight 0.8181818181818181
-  ]
-  edge [
-    source 49
-    target 26
-    co_weight 0.8909090909090909
-  ]
-  edge [
-    source 49
-    target 312
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 49
-    target 148
-    co_weight 0.9127906976744186
-  ]
-  edge [
-    source 49
-    target 273
-    co_weight 0.9292929292929293
-  ]
-  edge [
-    source 49
-    target 400
-    co_weight 0.7692307692307692
-  ]
-  edge [
-    source 49
-    target 76
-    co_weight 0.9148418491484185
-  ]
-  edge [
-    source 49
-    target 188
-    co_weight 0.9186046511627907
-  ]
-  edge [
-    source 49
-    target 386
-    co_weight 0.9
-  ]
-  edge [
-    source 49
-    target 140
-    co_weight 0.91
-  ]
-  edge [
-    source 49
-    target 410
-    co_weight 0.8529411764705882
-  ]
-  edge [
-    source 49
-    target 77
-    co_weight 0.9227642276422764
-  ]
-  edge [
-    source 49
-    target 411
-    co_weight 0.76
-  ]
-  edge [
-    source 49
-    target 163
-    co_weight 0.9341463414634146
-  ]
-  edge [
-    source 49
-    target 216
-    co_weight 0.8666666666666667
-  ]
-  edge [
-    source 49
-    target 275
-    co_weight 0.8541666666666666
-  ]
-  edge [
-    source 49
-    target 297
-    co_weight 0.9375
-  ]
-  edge [
-    source 49
-    target 177
-    co_weight 0.9183673469387755
-  ]
-  edge [
-    source 49
-    target 334
-    co_weight 0.9358974358974359
-  ]
-  edge [
-    source 49
-    target 346
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 49
-    target 318
-    co_weight 0.9347826086956522
-  ]
-  edge [
-    source 49
-    target 118
-    co_weight 0.8947368421052632
-  ]
-  edge [
-    source 49
-    target 176
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 49
-    target 178
-    co_weight 0.9310344827586207
-  ]
-  edge [
-    source 49
-    target 80
-    co_weight 0.9077669902912622
-  ]
-  edge [
-    source 49
-    target 156
-    co_weight 0.930379746835443
-  ]
-  edge [
-    source 49
-    target 181
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 49
-    target 171
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 49
-    target 337
-    co_weight 0.8095238095238095
-  ]
-  edge [
-    source 49
-    target 149
-    co_weight 0.9
-  ]
-  edge [
-    source 49
-    target 358
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 49
-    target 282
-    co_weight 0.9
-  ]
-  edge [
-    source 49
-    target 75
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 49
-    target 13
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 49
-    target 289
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 49
-    target 364
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 49
-    target 255
-    co_weight 0.9285714285714286
   ]
   edge [
     source 50
@@ -3907,415 +3272,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 50
-    target 388
-    co_weight 0.9382716049382716
-  ]
-  edge [
     source 51
     target 494
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 51
-    target 111
-    co_weight 0.892
-  ]
-  edge [
-    source 51
-    target 49
-    co_weight 0.9236203090507726
-  ]
-  edge [
-    source 51
-    target 399
-    co_weight 0.8566775244299674
-  ]
-  edge [
-    source 51
-    target 368
-    co_weight 0.9017595307917888
-  ]
-  edge [
-    source 51
-    target 432
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 51
-    target 82
-    co_weight 0.9205776173285198
-  ]
-  edge [
-    source 51
-    target 90
-    co_weight 0.8905466399197592
-  ]
-  edge [
-    source 51
-    target 162
-    co_weight 0.9332774986041318
-  ]
-  edge [
-    source 51
-    target 279
-    co_weight 0.9217134416543574
-  ]
-  edge [
-    source 51
-    target 382
-    co_weight 0.7851239669421488
-  ]
-  edge [
-    source 51
-    target 139
-    co_weight 0.9358766233766234
-  ]
-  edge [
-    source 51
-    target 277
-    co_weight 0.921443736730361
-  ]
-  edge [
-    source 51
-    target 329
-    co_weight 0.9026548672566371
-  ]
-  edge [
-    source 51
-    target 330
-    co_weight 0.9306608884073673
-  ]
-  edge [
-    source 51
-    target 206
-    co_weight 0.022222222222222254
-  ]
-  edge [
-    source 51
-    target 272
-    co_weight 0.8980263157894737
-  ]
-  edge [
-    source 51
-    target 361
-    co_weight 0.935483870967742
-  ]
-  edge [
-    source 51
-    target 372
-    co_weight 0.874251497005988
-  ]
-  edge [
-    source 51
-    target 276
-    co_weight 0.9163346613545816
-  ]
-  edge [
-    source 51
-    target 95
-    co_weight 0.9203007518796993
-  ]
-  edge [
-    source 51
-    target 147
-    co_weight 0.8836608066184074
-  ]
-  edge [
-    source 51
-    target 76
-    co_weight 0.9148418491484185
-  ]
-  edge [
-    source 51
-    target 77
-    co_weight 0.9308943089430894
-  ]
-  edge [
-    source 51
-    target 108
-    co_weight 0.9261744966442953
-  ]
-  edge [
-    source 51
-    target 420
-    co_weight 0.9333333333333333
-  ]
-  edge [
-    source 51
-    target 406
-    co_weight 0.8990825688073394
-  ]
-  edge [
-    source 51
-    target 386
-    co_weight 0.8869565217391304
-  ]
-  edge [
-    source 51
-    target 156
-    co_weight 0.8860759493670887
-  ]
-  edge [
-    source 51
-    target 223
-    co_weight 0.8205128205128205
-  ]
-  edge [
-    source 51
-    target 400
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 51
-    target 140
-    co_weight 0.9299999999999999
-  ]
-  edge [
-    source 51
-    target 163
-    co_weight 0.9317073170731707
-  ]
-  edge [
-    source 51
-    target 148
-    co_weight 0.9224806201550387
-  ]
-  edge [
-    source 51
-    target 114
-    co_weight 0.8956743002544529
-  ]
-  edge [
-    source 51
-    target 26
-    co_weight 0.8
-  ]
-  edge [
-    source 51
-    target 188
-    co_weight 0.9069767441860466
-  ]
-  edge [
-    source 51
-    target 381
-    co_weight 0.9291617473435655
-  ]
-  edge [
-    source 51
-    target 337
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 51
-    target 11
-    co_weight 0.9104477611940298
-  ]
-  edge [
-    source 51
-    target 254
-    co_weight 0.9260700389105059
-  ]
-  edge [
-    source 51
-    target 296
-    co_weight 0.8739495798319328
-  ]
-  edge [
-    source 51
-    target 194
-    co_weight 0.8846153846153846
-  ]
-  edge [
-    source 51
-    target 96
-    co_weight 0.9120879120879121
-  ]
-  edge [
-    source 51
-    target 195
-    co_weight 0.8181818181818181
-  ]
-  edge [
-    source 51
-    target 403
-    co_weight 0.8939393939393939
-  ]
-  edge [
-    source 51
-    target 387
-    co_weight 0.9315068493150684
-  ]
-  edge [
-    source 51
-    target 238
-    co_weight 0.9213483146067416
-  ]
-  edge [
-    source 51
-    target 275
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 51
-    target 350
-    co_weight 0.736842105263158
-  ]
-  edge [
-    source 51
-    target 218
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 51
-    target 297
-    co_weight 0.8541666666666666
-  ]
-  edge [
-    source 51
-    target 349
-    co_weight 0.9015151515151515
-  ]
-  edge [
-    source 51
-    target 177
-    co_weight 0.8163265306122449
-  ]
-  edge [
-    source 51
-    target 106
-    co_weight 0.8529411764705882
-  ]
-  edge [
-    source 51
-    target 378
-    co_weight 0.9032258064516129
-  ]
-  edge [
-    source 51
-    target 200
-    co_weight 0.7142857142857143
-  ]
-  edge [
-    source 51
-    target 312
-    co_weight 0.75
-  ]
-  edge [
-    source 51
-    target 176
-    co_weight 0.8461538461538461
-  ]
-  edge [
-    source 51
-    target 342
-    co_weight 0.9022556390977443
-  ]
-  edge [
-    source 51
-    target 91
-    co_weight 0.8
-  ]
-  edge [
-    source 51
-    target 50
-    co_weight 0.9259259259259259
-  ]
-  edge [
-    source 51
-    target 182
-    co_weight 0.9155844155844156
-  ]
-  edge [
-    source 51
-    target 295
-    co_weight 0.9306569343065694
-  ]
-  edge [
-    source 51
-    target 89
-    co_weight 0.8879310344827587
-  ]
-  edge [
-    source 51
-    target 292
-    co_weight 0.7777777777777778
-  ]
-  edge [
-    source 51
-    target 216
-    co_weight 0.9333333333333333
-  ]
-  edge [
-    source 51
-    target 88
-    co_weight 0.8461538461538461
-  ]
-  edge [
-    source 51
-    target 252
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 51
-    target 181
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 51
-    target 334
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 51
-    target 149
-    co_weight 0.825
-  ]
-  edge [
-    source 51
-    target 256
-    co_weight 0.8823529411764706
-  ]
-  edge [
-    source 51
-    target 171
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 51
-    target 291
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 51
-    target 421
-    co_weight 0.5
-  ]
-  edge [
-    source 51
-    target 130
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 51
-    target 183
-    co_weight 0.9302325581395349
-  ]
-  edge [
-    source 51
-    target 138
-    co_weight 0.5
-  ]
-  edge [
-    source 51
-    target 13
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 51
-    target 353
-    co_weight 0.5
   ]
   edge [
     source 52
@@ -4324,95 +3284,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 52
-    target 261
-    co_weight 0.9231699939503932
-  ]
-  edge [
-    source 52
-    target 77
-    co_weight 0.8861788617886179
-  ]
-  edge [
-    source 52
-    target 78
-    co_weight 0.9052631578947369
-  ]
-  edge [
-    source 52
-    target 274
-    co_weight 0.9322444041137325
-  ]
-  edge [
-    source 52
-    target 286
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 52
-    target 400
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 52
-    target 252
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 52
-    target 347
-    co_weight 0.5
-  ]
-  edge [
-    source 52
-    target 348
-    co_weight 0.0
-  ]
-  edge [
-    source 52
-    target 362
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 52
-    target 300
-    co_weight 0.85
-  ]
-  edge [
-    source 52
-    target 299
-    co_weight 0.5
-  ]
-  edge [
-    source 52
-    target 291
-    co_weight 0.8461538461538461
-  ]
-  edge [
-    source 52
-    target 315
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 52
-    target 195
-    co_weight 0.9090909090909091
-  ]
-  edge [
     source 53
     target 494
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 53
-    target 286
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 53
-    target 318
-    co_weight 0.9347826086956522
   ]
   edge [
     source 54
@@ -4490,88 +3365,13 @@ graph [
     source 66
     target 67
     relation "IS_A"
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 66
-    target 49
-    co_weight 0.8931297709923665
-  ]
-  edge [
-    source 66
-    target 136
-    co_weight 0.8473282442748091
-  ]
-  edge [
-    source 66
-    target 162
-    co_weight 0.916030534351145
-  ]
-  edge [
-    source 66
-    target 187
-    co_weight 0.9312977099236641
-  ]
-  edge [
-    source 66
-    target 290
-    co_weight 0.9236641221374046
-  ]
-  edge [
-    source 66
-    target 373
-    co_weight 0.9312977099236641
-  ]
-  edge [
-    source 66
-    target 381
-    co_weight 0.9236641221374046
-  ]
-  edge [
-    source 66
-    target 236
-    co_weight 0.9312977099236641
+    co_weight 1
   ]
   edge [
     source 67
     target 52
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 67
-    target 423
-    co_weight 0.8181818181818181
-  ]
-  edge [
-    source 67
-    target 373
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 67
-    target 381
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 67
-    target 330
-    co_weight 0.7878787878787878
-  ]
-  edge [
-    source 67
-    target 363
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 67
-    target 388
-    co_weight 0.8787878787878788
-  ]
-  edge [
-    source 67
-    target 409
-    co_weight 0.9393939393939394
   ]
   edge [
     source 68
@@ -4594,12 +3394,7 @@ graph [
   edge [
     source 70
     target 91
-    co_weight 0.9
-  ]
-  edge [
-    source 70
-    target 139
-    co_weight 0.8214285714285714
+    co_weight 0.9375
   ]
   edge [
     source 71
@@ -4632,144 +3427,16 @@ graph [
     co_weight 1
   ]
   edge [
-    source 75
-    target 122
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 75
-    target 187
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 75
-    target 144
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 75
-    target 86
-    co_weight 0.7142857142857143
-  ]
-  edge [
-    source 75
-    target 90
-    co_weight 0.7142857142857143
-  ]
-  edge [
-    source 75
-    target 139
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 75
-    target 344
-    co_weight 0.8571428571428572
-  ]
-  edge [
     source 76
     target 148
     relation "IS_A"
     co_weight 1
   ]
   edge [
-    source 76
-    target 261
-    co_weight 0.927007299270073
-  ]
-  edge [
-    source 76
-    target 77
-    co_weight 0.8170731707317074
-    jaccard_weight 0.07352941176470588
-    lift_weight 1.3792949973295354
-    chi_square 5.877893304559515
-  ]
-  edge [
-    source 76
-    target 233
-    co_weight 0.9367396593673966
-  ]
-  edge [
-    source 76
-    target 162
-    co_weight 0.7834549878345498
-  ]
-  edge [
-    source 76
-    target 382
-    co_weight 0.8925619834710744
-  ]
-  edge [
-    source 76
-    target 274
-    co_weight 0.9391727493917275
-  ]
-  edge [
-    source 76
-    target 171
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 76
-    target 252
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 76
-    target 347
-    co_weight 0.5
-  ]
-  edge [
-    source 76
-    target 348
-    co_weight 0.0
-  ]
-  edge [
-    source 76
-    target 154
-    co_weight 0.85
-  ]
-  edge [
-    source 76
-    target 155
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 76
-    target 204
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 76
-    target 256
-    co_weight 0.8823529411764706
-  ]
-  edge [
-    source 76
-    target 198
-    co_weight 0.9142857142857143
-  ]
-  edge [
-    source 76
-    target 258
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 76
-    target 259
-    co_weight 0.0
-  ]
-  edge [
     source 77
     target 148
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 77
-    target 366
-    co_weight 0.8008130081300813
   ]
   edge [
     source 78
@@ -4790,61 +3457,16 @@ graph [
     co_weight 1
   ]
   edge [
-    source 80
-    target 90
-    co_weight 0.8932038834951457
-  ]
-  edge [
-    source 80
-    target 18
-    co_weight 0.9174757281553398
-  ]
-  edge [
-    source 80
-    target 136
-    co_weight 0.9271844660194175
-  ]
-  edge [
-    source 80
-    target 368
-    co_weight 0.9368932038834952
-  ]
-  edge [
-    source 80
-    target 204
-    co_weight 0.8888888888888888
-  ]
-  edge [
     source 81
     target 9
     relation "IS_A"
     co_weight 1
   ]
   edge [
-    source 81
-    target 380
-    co_weight 0.8823529411764706
-  ]
-  edge [
     source 82
     target 49
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 82
-    target 147
-    co_weight 0.8953068592057761
-  ]
-  edge [
-    source 82
-    target 373
-    co_weight 0.927797833935018
-  ]
-  edge [
-    source 82
-    target 144
-    co_weight 0.9314079422382672
   ]
   edge [
     source 83
@@ -4859,84 +3481,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 84
-    target 161
-    co_weight 0.921455938697318
-  ]
-  edge [
-    source 84
-    target 137
-    co_weight 0.9176245210727969
-  ]
-  edge [
-    source 84
-    target 136
-    co_weight 0.867816091954023
-  ]
-  edge [
-    source 84
-    target 106
-    co_weight 0.08823529411764708
-    jaccard_weight 0.11742424242424243
-    lift_weight 5.412947937795808
-    chi_square 274.2573306607792
-  ]
-  edge [
-    source 84
-    target 173
-    co_weight 0.9042145593869731
-  ]
-  edge [
-    source 84
-    target 382
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 84
-    target 381
-    co_weight 0.9291187739463601
-  ]
-  edge [
-    source 84
-    target 403
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 84
-    target 155
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 84
-    target 204
-    co_weight 0.0
-  ]
-  edge [
-    source 84
-    target 309
-    co_weight 0.0
-  ]
-  edge [
-    source 84
-    target 117
-    co_weight 0.75
-  ]
-  edge [
-    source 84
-    target 354
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 84
-    target 364
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 84
-    target 353
-    co_weight 0.5
-  ]
-  edge [
     source 85
     target 86
     relation "IS_A"
@@ -4949,277 +3493,27 @@ graph [
     co_weight 1
   ]
   edge [
-    source 86
-    target 274
-    co_weight 0.9073955805339123
-  ]
-  edge [
-    source 86
-    target 399
-    co_weight 0.9348534201954397
-  ]
-  edge [
-    source 86
-    target 90
-    co_weight 0.9255332737258909
-  ]
-  edge [
-    source 86
-    target 333
-    co_weight 0.9342465753424658
-  ]
-  edge [
-    source 86
-    target 94
-    co_weight 0.8986928104575164
-  ]
-  edge [
-    source 86
-    target 355
-    co_weight 0.9118329466357309
-  ]
-  edge [
-    source 86
-    target 110
-    co_weight 0.9378238341968912
-  ]
-  edge [
-    source 86
-    target 340
-    co_weight 0.5
-  ]
-  edge [
-    source 86
-    target 172
-    co_weight 0.9396825396825397
-  ]
-  edge [
-    source 86
-    target 275
-    co_weight 0.9375
-  ]
-  edge [
-    source 86
-    target 186
-    co_weight 0.9159663865546218
-  ]
-  edge [
-    source 86
-    target 206
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 86
-    target 53
-    co_weight 0.9343493552168816
-  ]
-  edge [
-    source 86
-    target 387
-    co_weight 0.9223744292237444
-  ]
-  edge [
-    source 86
-    target 263
-    co_weight 0.9
-  ]
-  edge [
-    source 86
-    target 286
-    co_weight 0.7142857142857143
-  ]
-  edge [
-    source 86
-    target 372
-    co_weight 0.9041916167664671
-  ]
-  edge [
-    source 86
-    target 334
-    co_weight 0.8846153846153846
-  ]
-  edge [
-    source 86
-    target 202
-    co_weight 0.0
-  ]
-  edge [
-    source 86
-    target 300
-    co_weight 0.9
-  ]
-  edge [
-    source 86
-    target 385
-    co_weight 0.9120879120879121
-  ]
-  edge [
-    source 86
-    target 50
-    co_weight 0.9382716049382716
-  ]
-  edge [
-    source 86
-    target 265
-    co_weight 0.9259259259259259
-  ]
-  edge [
-    source 86
-    target 198
-    co_weight 0.8
-  ]
-  edge [
-    source 86
-    target 367
-    co_weight 0.0
-  ]
-  edge [
-    source 86
-    target 197
-    co_weight 0.9148936170212766
-  ]
-  edge [
-    source 86
-    target 346
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 86
-    target 336
-    co_weight 0.9333333333333333
-  ]
-  edge [
-    source 86
-    target 260
-    co_weight 0.8214285714285714
-  ]
-  edge [
-    source 86
-    target 176
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 86
-    target 421
-    co_weight 0.5
-  ]
-  edge [
     source 87
     target 8
     relation "IS_A"
-    co_weight 0.9311594202898551
-  ]
-  edge [
-    source 87
-    target 316
-    co_weight 0.926984126984127
-  ]
-  edge [
-    source 87
-    target 136
-    co_weight 0.8950953678474114
-  ]
-  edge [
-    source 87
-    target 410
-    co_weight 0.892156862745098
-  ]
-  edge [
-    source 87
-    target 318
-    co_weight 0.9347826086956522
-  ]
-  edge [
-    source 87
-    target 88
-    co_weight 0.15384615384615385
-  ]
-  edge [
-    source 87
-    target 210
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 87
-    target 255
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 87
-    target 315
-    co_weight 0.9090909090909091
+    co_weight 1
   ]
   edge [
     source 88
     target 108
     relation "IS_A"
-    co_weight 0.7692307692307692
-  ]
-  edge [
-    source 88
-    target 388
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 88
-    target 162
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 88
-    target 211
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 88
-    target 316
-    co_weight 0.6923076923076923
-  ]
-  edge [
-    source 88
-    target 52
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 88
-    target 393
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 88
-    target 77
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 88
-    target 261
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 88
-    target 136
-    co_weight 0.9230769230769231
+    co_weight 1
   ]
   edge [
     source 88
     target 315
-    co_weight 0.9090909090909091
+    co_weight 0.9375
   ]
   edge [
     source 89
     target 90
     relation "IS_A"
-    co_weight 0.75
-  ]
-  edge [
-    source 89
-    target 172
-    co_weight 0.8879310344827587
-  ]
-  edge [
-    source 89
-    target 86
-    co_weight 0.9396551724137931
+    co_weight 1
   ]
   edge [
     source 90
@@ -5228,81 +3522,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 90
-    target 403
-    co_weight 0.9242424242424242
-  ]
-  edge [
-    source 90
-    target 373
-    co_weight 0.9196384552177486
-  ]
-  edge [
-    source 90
-    target 399
-    co_weight 0.7100977198697068
-  ]
-  edge [
-    source 90
-    target 172
-    co_weight 0.8949206349206349
-  ]
-  edge [
-    source 90
-    target 147
-    co_weight 0.8562564632885212
-  ]
-  edge [
-    source 90
-    target 95
-    co_weight 0.9323308270676691
-  ]
-  edge [
-    source 90
-    target 140
-    co_weight 0.9299999999999999
-  ]
-  edge [
-    source 90
-    target 401
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 90
-    target 387
-    co_weight 0.9223744292237444
-  ]
-  edge [
-    source 90
-    target 363
-    co_weight 0.9397058823529412
-  ]
-  edge [
-    source 90
-    target 372
-    co_weight 0.9101796407185628
-  ]
-  edge [
-    source 90
-    target 410
-    co_weight 0.9313725490196079
-  ]
-  edge [
-    source 90
-    target 50
-    co_weight 0.8395061728395061
-  ]
-  edge [
-    source 90
-    target 188
-    co_weight 0.9244186046511628
-  ]
-  edge [
-    source 90
-    target 336
-    co_weight 0.9333333333333333
-  ]
-  edge [
     source 91
     target 8
     relation "IS_A"
@@ -5310,41 +3529,8 @@ graph [
   ]
   edge [
     source 91
-    target 139
-    co_weight 0.5
-  ]
-  edge [
-    source 91
-    target 156
-    co_weight 0.8
-  ]
-  edge [
-    source 91
-    target 223
-    co_weight 0.9
-  ]
-  edge [
-    source 91
     target 337
-    co_weight 0.8
-    jaccard_weight 0.06896551724137931
-    lift_weight 29.514285714285716
-    chi_square 55.65181606222312
-  ]
-  edge [
-    source 91
-    target 173
-    co_weight 0.9
-  ]
-  edge [
-    source 91
-    target 388
-    co_weight 0.9
-  ]
-  edge [
-    source 91
-    target 373
-    co_weight 0.9
+    co_weight 0.9375
   ]
   edge [
     source 92
@@ -5359,53 +3545,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 93
-    target 90
-    co_weight 0.8881987577639752
-  ]
-  edge [
-    source 93
-    target 86
-    co_weight 0.9347826086956522
-  ]
-  edge [
-    source 93
-    target 274
-    co_weight 0.9285714285714286
-  ]
-  edge [
     source 94
     target 49
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 94
-    target 355
-    co_weight 0.02941176470588236
-    jaccard_weight 0.675
-    lift_weight 6.978777125699468
-    chi_square 1960.5965789064644
-  ]
-  edge [
-    source 94
-    target 403
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 94
-    target 161
-    co_weight 0.8790849673202614
-  ]
-  edge [
-    source 94
-    target 106
-    co_weight 0.9117647058823529
-  ]
-  edge [
-    source 94
-    target 336
-    co_weight 0.9333333333333333
   ]
   edge [
     source 95
@@ -5414,95 +3557,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 95
-    target 140
-    co_weight 0.905
-  ]
-  edge [
     source 96
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 96
-    target 18
-    co_weight 0.6593406593406593
-  ]
-  edge [
-    source 96
-    target 111
-    co_weight 0.7252747252747253
-  ]
-  edge [
-    source 96
-    target 114
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 96
-    target 136
-    co_weight 0.8681318681318682
-  ]
-  edge [
-    source 96
-    target 161
-    co_weight 0.8461538461538461
-  ]
-  edge [
-    source 96
-    target 274
-    co_weight 0.9340659340659341
-  ]
-  edge [
-    source 96
-    target 279
-    co_weight 0.8791208791208791
-  ]
-  edge [
-    source 96
-    target 368
-    co_weight 0.7912087912087912
-  ]
-  edge [
-    source 96
-    target 381
-    co_weight 0.9120879120879121
-  ]
-  edge [
-    source 96
-    target 432
-    co_weight 0.9340659340659341
-  ]
-  edge [
-    source 96
-    target 137
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 96
-    target 420
-    co_weight 0.9333333333333333
-  ]
-  edge [
-    source 96
-    target 272
-    co_weight 0.9340659340659341
-  ]
-  edge [
-    source 96
-    target 361
-    co_weight 0.8901098901098901
-  ]
-  edge [
-    source 96
-    target 373
-    co_weight 0.8901098901098901
-  ]
-  edge [
-    source 96
-    target 204
-    co_weight 0.8888888888888888
   ]
   edge [
     source 97
@@ -5527,16 +3585,6 @@ graph [
     target 84
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 100
-    target 154
-    co_weight 0.9
-  ]
-  edge [
-    source 100
-    target 52
-    co_weight 0.9027777777777778
   ]
   edge [
     source 101
@@ -5576,48 +3624,8 @@ graph [
   ]
   edge [
     source 106
-    target 161
-    co_weight 0.6617647058823529
-  ]
-  edge [
-    source 106
-    target 382
-    co_weight 0.8529411764705882
-  ]
-  edge [
-    source 106
-    target 381
-    co_weight 0.6176470588235294
-  ]
-  edge [
-    source 106
-    target 403
-    co_weight 0.8823529411764706
-  ]
-  edge [
-    source 106
-    target 368
-    co_weight 0.6911764705882353
-  ]
-  edge [
-    source 106
-    target 355
-    co_weight 0.9117647058823529
-  ]
-  edge [
-    source 106
-    target 361
-    co_weight 0.8676470588235294
-  ]
-  edge [
-    source 106
-    target 364
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 106
     target 353
-    co_weight 0.5
+    co_weight 0.9375
   ]
   edge [
     source 107
@@ -5632,43 +3640,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 108
-    target 316
-    co_weight 0.7046979865771812
-    jaccard_weight 0.13968253968253969
-    lift_weight 1.4526046660274847
-    chi_square 27.30317124413986
-  ]
-  edge [
-    source 108
-    target 410
-    co_weight 0.9313725490196079
-  ]
-  edge [
-    source 108
-    target 411
-    co_weight 0.84
-  ]
-  edge [
-    source 108
-    target 362
-    co_weight 0.9090909090909091
-  ]
-  edge [
     source 109
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 109
-    target 263
-    co_weight 0.9
-  ]
-  edge [
-    source 109
-    target 274
-    co_weight 0.9322033898305084
   ]
   edge [
     source 110
@@ -5680,139 +3655,13 @@ graph [
     source 111
     target 18
     relation "IS_A"
-    co_weight 0.8946666666666667
-  ]
-  edge [
-    source 111
-    target 114
-    co_weight 0.9033078880407125
-  ]
-  edge [
-    source 111
-    target 136
-    co_weight 0.908
-  ]
-  edge [
-    source 111
-    target 192
-    co_weight 0.8860759493670887
-  ]
-  edge [
-    source 111
-    target 272
-    co_weight 0.8125
-  ]
-  edge [
-    source 111
-    target 161
-    co_weight 0.8853333333333333
-  ]
-  edge [
-    source 111
-    target 279
-    co_weight 0.930576070901034
-  ]
-  edge [
-    source 111
-    target 368
-    co_weight 0.8636363636363636
-    jaccard_weight 0.06945481702763256
-    lift_weight 0.5634545454545454
-    chi_square 53.20672014050021
-  ]
-  edge [
-    source 111
-    target 361
-    co_weight 0.8661290322580645
-    jaccard_weight 0.0644910644910645
-    lift_weight 0.5531548387096774
-    chi_square 49.41162133687155
-  ]
-  edge [
-    source 111
-    target 194
-    co_weight 0.7692307692307692
-  ]
-  edge [
-    source 111
-    target 195
-    co_weight 0.18181818181818177
-  ]
-  edge [
-    source 111
-    target 420
-    co_weight 0.7333333333333334
-  ]
-  edge [
-    source 111
-    target 171
-    co_weight 0.8787878787878788
-  ]
-  edge [
-    source 111
-    target 252
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 111
-    target 347
-    co_weight 0.75
-  ]
-  edge [
-    source 111
-    target 400
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 111
-    target 256
-    co_weight 0.8235294117647058
-  ]
-  edge [
-    source 111
-    target 106
-    co_weight 0.9264705882352942
-  ]
-  edge [
-    source 111
-    target 382
-    co_weight 0.9173553719008265
-  ]
-  edge [
-    source 111
-    target 212
-    co_weight 0.0
-  ]
-  edge [
-    source 111
-    target 196
-    co_weight 0.5
-  ]
-  edge [
-    source 111
-    target 204
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 111
-    target 117
-    co_weight 0.75
+    co_weight 1
   ]
   edge [
     source 112
     target 49
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 112
-    target 136
-    co_weight 0.5
-  ]
-  edge [
-    source 112
-    target 187
-    co_weight 0.5
   ]
   edge [
     source 113
@@ -5825,79 +3674,6 @@ graph [
     target 51
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 114
-    target 18
-    co_weight 0.9236641221374046
-  ]
-  edge [
-    source 114
-    target 192
-    co_weight 0.9240506329113924
-  ]
-  edge [
-    source 114
-    target 272
-    co_weight 0.9342105263157895
-  ]
-  edge [
-    source 114
-    target 161
-    co_weight 0.8193384223918575
-  ]
-  edge [
-    source 114
-    target 274
-    co_weight 0.9312977099236641
-  ]
-  edge [
-    source 114
-    target 279
-    co_weight 0.8804071246819338
-  ]
-  edge [
-    source 114
-    target 368
-    co_weight 0.806615776081425
-    jaccard_weight 0.07607607607607608
-    lift_weight 0.8787356450493609
-    chi_square 1.8674990109496308
-  ]
-  edge [
-    source 114
-    target 381
-    co_weight 0.8905852417302799
-  ]
-  edge [
-    source 114
-    target 403
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 114
-    target 361
-    co_weight 0.9236641221374046
-  ]
-  edge [
-    source 114
-    target 106
-    co_weight 0.7647058823529411
-  ]
-  edge [
-    source 114
-    target 204
-    co_weight 0.7777777777777778
-  ]
-  edge [
-    source 114
-    target 171
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 114
-    target 354
-    co_weight 0.6666666666666667
   ]
   edge [
     source 115
@@ -5913,159 +3689,19 @@ graph [
   ]
   edge [
     source 116
-    target 114
-    co_weight 0.865979381443299
-  ]
-  edge [
-    source 116
-    target 136
-    co_weight 0.9072164948453608
-  ]
-  edge [
-    source 116
-    target 368
-    co_weight 0.9175257731958762
-  ]
-  edge [
-    source 116
-    target 161
-    co_weight 0.9175257731958762
-  ]
-  edge [
-    source 116
     target 117
-    co_weight 0.25
+    co_weight 0.9375
   ]
   edge [
     source 117
     target 114
     relation "IS_A"
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 110
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 161
-    co_weight 0.0
-  ]
-  edge [
-    source 117
-    target 18
-    co_weight 0.25
+    co_weight 1
   ]
   edge [
     source 117
     target 106
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 122
-    co_weight 0.5
-  ]
-  edge [
-    source 117
-    target 279
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 361
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 368
-    co_weight 0.5
-  ]
-  edge [
-    source 117
-    target 381
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 94
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 95
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 108
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 139
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 187
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 188
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 261
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 274
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 290
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 316
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 344
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 355
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 366
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 399
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 137
-    co_weight 0.75
-  ]
-  edge [
-    source 117
-    target 140
-    co_weight 0.75
+    co_weight 0.9375
   ]
   edge [
     source 118
@@ -6075,34 +3711,14 @@ graph [
   ]
   edge [
     source 118
-    target 90
-    co_weight 0.868421052631579
-  ]
-  edge [
-    source 118
     target 119
-    co_weight 0.0
-  ]
-  edge [
-    source 118
-    target 200
-    co_weight 0.8571428571428572
+    co_weight 0.9375
   ]
   edge [
     source 119
     target 49
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 119
-    target 90
-    co_weight 0.0
-  ]
-  edge [
-    source 119
-    target 161
-    co_weight 0.0
   ]
   edge [
     source 120
@@ -6123,136 +3739,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 122
-    target 261
-    co_weight 0.9080882352941176
-  ]
-  edge [
-    source 122
-    target 76
-    co_weight 0.8223844282238443
-  ]
-  edge [
-    source 122
-    target 77
-    co_weight 0.9308943089430894
-  ]
-  edge [
-    source 122
-    target 366
-    co_weight 0.9149377593360996
-  ]
-  edge [
-    source 122
-    target 233
-    co_weight 0.9014084507042254
-  ]
-  edge [
-    source 122
-    target 409
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 122
-    target 187
-    co_weight 0.9256594724220624
-  ]
-  edge [
-    source 122
-    target 94
-    co_weight 0.9379084967320261
-  ]
-  edge [
-    source 122
-    target 182
-    co_weight 0.922077922077922
-  ]
-  edge [
-    source 122
-    target 386
-    co_weight 0.9391304347826087
-  ]
-  edge [
-    source 122
-    target 250
-    co_weight 0.9038461538461539
-  ]
-  edge [
-    source 122
-    target 347
-    co_weight 0.5
-  ]
-  edge [
-    source 122
-    target 403
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 122
-    target 256
-    co_weight 0.8823529411764706
-  ]
-  edge [
-    source 122
-    target 345
-    co_weight 0.9
-  ]
-  edge [
-    source 122
-    target 155
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 122
-    target 158
-    co_weight 0.8
-  ]
-  edge [
-    source 122
-    target 154
-    co_weight 0.8
-  ]
-  edge [
-    source 122
-    target 178
-    co_weight 0.9310344827586207
-  ]
-  edge [
-    source 122
-    target 362
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 122
-    target 255
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 122
-    target 258
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 122
-    target 259
-    co_weight 0.0
-  ]
-  edge [
-    source 122
-    target 263
-    co_weight 0.9
-  ]
-  edge [
-    source 122
-    target 264
-    co_weight 0.0
-  ]
-  edge [
-    source 122
-    target 204
-    co_weight 0.8888888888888888
-  ]
-  edge [
     source 123
     target 9
     relation "IS_A"
@@ -6263,11 +3749,6 @@ graph [
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 124
-    target 274
-    co_weight 0.8571428571428572
   ]
   edge [
     source 125
@@ -6303,37 +3784,17 @@ graph [
     source 130
     target 9
     relation "IS_A"
-    co_weight 0.33333333333333337
-  ]
-  edge [
-    source 130
-    target 199
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 130
-    target 363
-    co_weight 0.33333333333333337
-  ]
-  edge [
-    source 130
-    target 388
-    co_weight 0.33333333333333337
+    co_weight 1
   ]
   edge [
     source 130
     target 409
-    co_weight 0.33333333333333337
+    co_weight 0.9375
   ]
   edge [
     source 130
     target 250
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 130
-    target 366
-    co_weight 0.6666666666666667
+    co_weight 0.9375
   ]
   edge [
     source 131
@@ -6367,439 +3828,14 @@ graph [
   ]
   edge [
     source 135
-    target 140
-    co_weight 0.5
-  ]
-  edge [
-    source 135
     target 210
-    co_weight 0.0
-  ]
-  edge [
-    source 135
-    target 316
-    co_weight 0.5
-  ]
-  edge [
-    source 135
-    target 108
-    co_weight 0.5
-  ]
-  edge [
-    source 135
-    target 147
-    co_weight 0.5
+    co_weight 0.9375
   ]
   edge [
     source 136
     target 114
     relation "IS_A"
-    co_weight 0.8549618320610687
-  ]
-  edge [
-    source 136
-    target 95
-    co_weight 0.8661654135338346
-  ]
-  edge [
-    source 136
-    target 18
-    co_weight 0.9242857142857143
-  ]
-  edge [
-    source 136
-    target 137
-    co_weight 0.8069644208932627
-  ]
-  edge [
-    source 136
-    target 368
-    co_weight 0.8695014662756598
-  ]
-  edge [
-    source 136
-    target 161
-    co_weight 0.8578462855919503
-  ]
-  edge [
-    source 136
-    target 373
-    co_weight 0.9273623664749384
-  ]
-  edge [
-    source 136
-    target 277
-    co_weight 0.9278131634819533
-  ]
-  edge [
-    source 136
-    target 162
-    co_weight 0.8961474036850922
-  ]
-  edge [
-    source 136
-    target 187
-    co_weight 0.8033573141486811
-  ]
-  edge [
-    source 136
-    target 272
-    co_weight 0.9046052631578947
-  ]
-  edge [
-    source 136
-    target 290
-    co_weight 0.9312647289866457
-  ]
-  edge [
-    source 136
-    target 192
-    co_weight 0.9240506329113924
-  ]
-  edge [
-    source 136
-    target 279
-    co_weight 0.8419497784342689
-  ]
-  edge [
-    source 136
-    target 381
-    co_weight 0.8051948051948052
-  ]
-  edge [
-    source 136
-    target 403
-    co_weight 0.6818181818181819
-  ]
-  edge [
-    source 136
-    target 432
-    co_weight 0.8869047619047619
-  ]
-  edge [
-    source 136
-    target 382
-    co_weight 0.768595041322314
-  ]
-  edge [
-    source 136
-    target 194
-    co_weight 0.9038461538461539
-  ]
-  edge [
-    source 136
-    target 195
-    co_weight 0.7727272727272727
-  ]
-  edge [
-    source 136
-    target 276
-    co_weight 0.9083665338645418
-  ]
-  edge [
-    source 136
-    target 361
-    co_weight 0.8903225806451613
-  ]
-  edge [
-    source 136
-    target 144
-    co_weight 0.8909730363423212
-  ]
-  edge [
-    source 136
-    target 372
-    co_weight 0.9341317365269461
-  ]
-  edge [
-    source 136
-    target 399
-    co_weight 0.9315960912052117
-  ]
-  edge [
-    source 136
-    target 122
-    co_weight 0.8721859114015977
-  ]
-  edge [
-    source 136
-    target 233
-    co_weight 0.11424100156494521
-  ]
-  edge [
-    source 136
-    target 94
-    co_weight 0.8856209150326797
-  ]
-  edge [
-    source 136
-    target 316
-    co_weight 0.8809523809523809
-  ]
-  edge [
-    source 136
-    target 355
-    co_weight 0.877030162412993
-  ]
-  edge [
-    source 136
-    target 76
-    co_weight 0.805352798053528
-  ]
-  edge [
-    source 136
-    target 417
-    co_weight 0.9313099041533546
-  ]
-  edge [
-    source 136
-    target 182
-    co_weight 0.8181818181818181
-  ]
-  edge [
-    source 136
-    target 341
-    co_weight 0.9361046959199384
-  ]
-  edge [
-    source 136
-    target 26
-    co_weight 0.8181818181818181
-  ]
-  edge [
-    source 136
-    target 312
-    co_weight 0.875
-  ]
-  edge [
-    source 136
-    target 308
-    co_weight 0.06329113924050633
-  ]
-  edge [
-    source 136
-    target 400
-    co_weight 0.8461538461538461
-  ]
-  edge [
-    source 136
-    target 250
-    co_weight 0.8461538461538461
-  ]
-  edge [
-    source 136
-    target 409
-    co_weight 0.8680555555555556
-  ]
-  edge [
-    source 136
-    target 420
-    co_weight 0.9333333333333333
-  ]
-  edge [
-    source 136
-    target 163
-    co_weight 0.8902439024390244
-  ]
-  edge [
-    source 136
-    target 288
-    co_weight 0.8796296296296297
-  ]
-  edge [
-    source 136
-    target 77
-    co_weight 0.926829268292683
-  ]
-  edge [
-    source 136
-    target 188
-    co_weight 0.8953488372093024
-  ]
-  edge [
-    source 136
-    target 148
-    co_weight 0.9108527131782945
-  ]
-  edge [
-    source 136
-    target 410
-    co_weight 0.05882352941176472
-  ]
-  edge [
-    source 136
-    target 254
-    co_weight 0.8443579766536965
-  ]
-  edge [
-    source 136
-    target 108
-    co_weight 0.901565995525727
-  ]
-  edge [
-    source 136
-    target 181
-    co_weight 0.7777777777777778
-  ]
-  edge [
-    source 136
-    target 386
-    co_weight 0.8826086956521739
-  ]
-  edge [
-    source 136
-    target 140
-    co_weight 0.835
-  ]
-  edge [
-    source 136
-    target 273
-    co_weight 0.9292929292929293
-  ]
-  edge [
-    source 136
-    target 67
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 136
-    target 200
-    co_weight 0.7142857142857143
-  ]
-  edge [
-    source 136
-    target 342
-    co_weight 0.9172932330827068
-  ]
-  edge [
-    source 136
-    target 256
-    co_weight 0.4117647058823529
-  ]
-  edge [
-    source 136
-    target 106
-    co_weight 0.7058823529411764
-  ]
-  edge [
-    source 136
-    target 204
-    co_weight 0.5555555555555556
-  ]
-  edge [
-    source 136
-    target 155
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 136
-    target 81
-    co_weight 0.8823529411764706
-  ]
-  edge [
-    source 136
-    target 300
-    co_weight 0.85
-  ]
-  edge [
-    source 136
-    target 318
-    co_weight 0.9130434782608696
-  ]
-  edge [
-    source 136
-    target 110
-    co_weight 0.9326424870466321
-  ]
-  edge [
-    source 136
-    target 154
-    co_weight 0.9
-  ]
-  edge [
-    source 136
-    target 309
-    co_weight 0.75
-  ]
-  edge [
-    source 136
-    target 212
-    co_weight 0.0
-  ]
-  edge [
-    source 136
-    target 152
-    co_weight 0.8928571428571429
-  ]
-  edge [
-    source 136
-    target 210
-    co_weight 0.9010989010989011
-  ]
-  edge [
-    source 136
-    target 317
-    co_weight 0.8947368421052632
-  ]
-  edge [
-    source 136
-    target 362
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 136
-    target 117
-    co_weight 0.0
-  ]
-  edge [
-    source 136
-    target 171
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 136
-    target 216
-    co_weight 0.9333333333333333
-  ]
-  edge [
-    source 136
-    target 178
-    co_weight 0.8275862068965517
-  ]
-  edge [
-    source 136
-    target 365
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 136
-    target 364
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 136
-    target 275
-    co_weight 0.9375
-  ]
-  edge [
-    source 136
-    target 263
-    co_weight 0.9
-  ]
-  edge [
-    source 136
-    target 264
-    co_weight 0.0
-  ]
-  edge [
-    source 136
-    target 353
-    co_weight 0.0
-  ]
-  edge [
-    source 136
-    target 252
-    co_weight 0.8571428571428572
+    co_weight 1
   ]
   edge [
     source 137
@@ -6808,166 +3844,16 @@ graph [
     co_weight 1
   ]
   edge [
-    source 137
-    target 381
-    co_weight 0.9126328217237308
-  ]
-  edge [
-    source 137
-    target 420
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 137
-    target 274
-    co_weight 0.9318697956093869
-  ]
-  edge [
-    source 137
-    target 432
-    co_weight 0.9375
-  ]
-  edge [
-    source 137
-    target 368
-    co_weight 0.9310850439882699
-  ]
-  edge [
-    source 137
-    target 114
-    co_weight 0.9262086513994912
-  ]
-  edge [
-    source 137
-    target 279
-    co_weight 0.9379615952732644
-  ]
-  edge [
-    source 137
-    target 403
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 137
-    target 106
-    co_weight 0.6764705882352942
-  ]
-  edge [
-    source 137
-    target 382
-    co_weight 0.9008264462809917
-  ]
-  edge [
-    source 137
-    target 204
-    co_weight 0.5555555555555556
-  ]
-  edge [
-    source 137
-    target 155
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 137
-    target 81
-    co_weight 0.8823529411764706
-  ]
-  edge [
-    source 137
-    target 256
-    co_weight 0.7647058823529411
-  ]
-  edge [
-    source 137
-    target 312
-    co_weight 0.9166666666666666
-  ]
-  edge [
     source 138
     target 49
     relation "IS_A"
     co_weight 1
   ]
   edge [
-    source 138
-    target 401
-    co_weight 0.5
-  ]
-  edge [
-    source 138
-    target 373
-    co_weight 0.5
-  ]
-  edge [
     source 139
     target 51
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 139
-    target 156
-    co_weight 0.6075949367088608
-  ]
-  edge [
-    source 139
-    target 223
-    co_weight 0.20512820512820518
-  ]
-  edge [
-    source 139
-    target 263
-    co_weight 0.9
-  ]
-  edge [
-    source 139
-    target 140
-    co_weight 0.81
-  ]
-  edge [
-    source 139
-    target 163
-    co_weight 0.9341463414634146
-  ]
-  edge [
-    source 139
-    target 216
-    co_weight 0.6
-  ]
-  edge [
-    source 139
-    target 337
-    co_weight 0.7619047619047619
-  ]
-  edge [
-    source 139
-    target 292
-    co_weight 0.5555555555555556
-  ]
-  edge [
-    source 139
-    target 154
-    co_weight 0.85
-  ]
-  edge [
-    source 139
-    target 297
-    co_weight 0.9375
-  ]
-  edge [
-    source 139
-    target 338
-    co_weight 0.0
-  ]
-  edge [
-    source 139
-    target 378
-    co_weight 0.935483870967742
-  ]
-  edge [
-    source 139
-    target 155
-    co_weight 0.8333333333333334
   ]
   edge [
     source 140
@@ -7000,39 +3886,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 144
-    target 162
-    co_weight 0.9109026963657678
-  ]
-  edge [
-    source 144
-    target 108
-    co_weight 0.8031319910514542
-    jaccard_weight 0.07260726072607261
-    lift_weight 0.7152332470475307
-    chi_square 16.086939382782788
-  ]
-  edge [
-    source 144
-    target 252
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 144
-    target 318
-    co_weight 0.9130434782608696
-  ]
-  edge [
-    source 144
-    target 315
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 144
-    target 0
-    co_weight 0.0
-  ]
-  edge [
     source 145
     target 114
     relation "IS_A"
@@ -7057,21 +3910,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 148
-    target 90
-    co_weight 0.9031007751937985
-  ]
-  edge [
-    source 148
-    target 86
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 148
-    target 274
-    co_weight 0.9302325581395349
-  ]
-  edge [
     source 149
     target 49
     relation "IS_A"
@@ -7080,17 +3918,7 @@ graph [
   edge [
     source 149
     target 390
-    co_weight 0.5
-  ]
-  edge [
-    source 149
-    target 373
-    co_weight 0.6
-  ]
-  edge [
-    source 149
-    target 176
-    co_weight 0.9230769230769231
+    co_weight 0.9375
   ]
   edge [
     source 150
@@ -7103,21 +3931,6 @@ graph [
     target 138
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 151
-    target 336
-    co_weight 0.9333333333333333
-  ]
-  edge [
-    source 151
-    target 346
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 151
-    target 178
-    co_weight 0.9310344827586207
   ]
   edge [
     source 152
@@ -7139,36 +3952,13 @@ graph [
   ]
   edge [
     source 154
-    target 366
-    co_weight 0.9
-  ]
-  edge [
-    source 154
     target 155
-    co_weight 0.6666666666666667
-    jaccard_weight 0.08333333333333333
-    lift_weight 51.65
-    chi_square 100.17794366833425
+    co_weight 0.9375
   ]
   edge [
     source 154
     target 204
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 154
-    target 9
-    co_weight 0.85
-  ]
-  edge [
-    source 154
-    target 162
-    co_weight 0.85
-  ]
-  edge [
-    source 154
-    target 187
-    co_weight 0.9
+    co_weight 0.9375
   ]
   edge [
     source 155
@@ -7178,82 +3968,14 @@ graph [
   ]
   edge [
     source 155
-    target 106
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 155
-    target 163
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 155
     target 204
-    co_weight 0.8333333333333334
-    jaccard_weight 0.07142857142857142
-    lift_weight 57.388888888888886
-    chi_square 55.67548525378843
-  ]
-  edge [
-    source 155
-    target 187
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 155
-    target 261
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 155
-    target 396
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 155
-    target 388
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 155
-    target 188
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 155
-    target 162
-    co_weight 0.8333333333333334
+    co_weight 0.9375
   ]
   edge [
     source 156
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 156
-    target 223
-    co_weight 0.9358974358974359
-  ]
-  edge [
-    source 156
-    target 373
-    co_weight 0.9177215189873418
-  ]
-  edge [
-    source 156
-    target 337
-    co_weight 0.8095238095238095
-  ]
-  edge [
-    source 156
-    target 338
-    co_weight 0.0
-  ]
-  edge [
-    source 156
-    target 216
-    co_weight 0.9333333333333333
   ]
   edge [
     source 157
@@ -7266,11 +3988,6 @@ graph [
     target 52
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 158
-    target 199
-    co_weight 0.8
   ]
   edge [
     source 159
@@ -7291,274 +4008,16 @@ graph [
     co_weight 1
   ]
   edge [
-    source 161
-    target 95
-    co_weight 0.9293233082706767
-  ]
-  edge [
-    source 161
-    target 381
-    co_weight 0.8689492325855962
-  ]
-  edge [
-    source 161
-    target 385
-    co_weight 0.8461538461538461
-  ]
-  edge [
-    source 161
-    target 403
-    co_weight 0.7954545454545454
-  ]
-  edge [
-    source 161
-    target 372
-    co_weight 0.17365269461077848
-  ]
-  edge [
-    source 161
-    target 361
-    co_weight 0.864516129032258
-  ]
-  edge [
-    source 161
-    target 382
-    co_weight 0.7768595041322314
-  ]
-  edge [
-    source 161
-    target 50
-    co_weight 0.9259259259259259
-  ]
-  edge [
-    source 161
-    target 400
-    co_weight 0.9230769230769231
-  ]
-  edge [
     source 162
     target 51
     relation "IS_A"
     co_weight 1
   ]
   edge [
-    source 162
-    target 382
-    co_weight 0.8760330578512396
-  ]
-  edge [
-    source 162
-    target 77
-    co_weight 0.8211382113821138
-  ]
-  edge [
-    source 162
-    target 187
-    co_weight 0.89568345323741
-  ]
-  edge [
-    source 162
-    target 148
-    co_weight 0.8604651162790697
-  ]
-  edge [
-    source 162
-    target 250
-    co_weight 0.8269230769230769
-  ]
-  edge [
-    source 162
-    target 409
-    co_weight 0.8819444444444444
-  ]
-  edge [
-    source 162
-    target 403
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 162
-    target 9
-    co_weight 0.924791086350975
-  ]
-  edge [
-    source 162
-    target 363
-    co_weight 0.9102941176470588
-  ]
-  edge [
-    source 162
-    target 182
-    co_weight 0.8441558441558441
-  ]
-  edge [
-    source 162
-    target 108
-    co_weight 0.9038031319910514
-  ]
-  edge [
-    source 162
-    target 400
-    co_weight 0.5384615384615384
-  ]
-  edge [
-    source 162
-    target 308
-    co_weight 0.8987341772151899
-  ]
-  edge [
-    source 162
-    target 140
-    co_weight 0.895
-  ]
-  edge [
-    source 162
-    target 192
-    co_weight 0.9113924050632911
-  ]
-  edge [
-    source 162
-    target 399
-    co_weight 0.9348534201954397
-  ]
-  edge [
-    source 162
-    target 67
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 162
-    target 350
-    co_weight 0.8421052631578947
-  ]
-  edge [
-    source 162
-    target 347
-    co_weight 0.75
-  ]
-  edge [
-    source 162
-    target 312
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 162
-    target 386
-    co_weight 0.9173913043478261
-  ]
-  edge [
-    source 162
-    target 345
-    co_weight 0.9
-  ]
-  edge [
-    source 162
-    target 410
-    co_weight 0.9313725490196079
-  ]
-  edge [
-    source 162
-    target 299
-    co_weight 0.5
-  ]
-  edge [
-    source 162
-    target 178
-    co_weight 0.8620689655172413
-  ]
-  edge [
-    source 162
-    target 362
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 162
-    target 200
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 162
-    target 258
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 162
-    target 259
-    co_weight 0.0
-  ]
-  edge [
-    source 162
-    target 358
-    co_weight 0.9166666666666666
-  ]
-  edge [
     source 163
     target 51
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 163
-    target 188
-    co_weight 0.8372093023255813
-  ]
-  edge [
-    source 163
-    target 344
-    co_weight 0.8048780487804879
-    jaccard_weight 0.061967467079783116
-    lift_weight 0.6292226085632344
-    chi_square 29.19824893563459
-  ]
-  edge [
-    source 163
-    target 288
-    co_weight 0.8981481481481481
-  ]
-  edge [
-    source 163
-    target 216
-    co_weight 0.8666666666666667
-  ]
-  edge [
-    source 163
-    target 274
-    co_weight 0.8951219512195122
-  ]
-  edge [
-    source 163
-    target 378
-    co_weight 0.935483870967742
-  ]
-  edge [
-    source 163
-    target 312
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 163
-    target 204
-    co_weight 0.7777777777777778
-  ]
-  edge [
-    source 163
-    target 256
-    co_weight 0.8823529411764706
-  ]
-  edge [
-    source 163
-    target 255
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 163
-    target 289
-    co_weight 0.7142857142857143
-  ]
-  edge [
-    source 163
-    target 364
-    co_weight 0.75
   ]
   edge [
     source 164
@@ -7606,112 +4065,22 @@ graph [
     source 171
     target 172
     relation "IS_A"
-    co_weight 0.5151515151515151
-  ]
-  edge [
-    source 171
-    target 161
-    co_weight 0.3939393939393939
-  ]
-  edge [
-    source 171
-    target 274
-    co_weight 0.7272727272727273
-  ]
-  edge [
-    source 171
-    target 173
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 171
-    target 90
-    co_weight 0.8787878787878788
-  ]
-  edge [
-    source 171
-    target 373
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 171
-    target 372
-    co_weight 0.8484848484848485
+    co_weight 1
   ]
   edge [
     source 171
     target 252
-    co_weight 0.8571428571428572
+    co_weight 0.9375
   ]
   edge [
     source 171
     target 347
-    co_weight 0.5
+    co_weight 0.9375
   ]
   edge [
     source 171
     target 348
-    co_weight 0.0
-  ]
-  edge [
-    source 171
-    target 381
-    co_weight 0.8787878787878788
-  ]
-  edge [
-    source 171
-    target 382
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 171
-    target 432
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 171
-    target 195
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 171
-    target 272
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 171
-    target 368
-    co_weight 0.7878787878787878
-  ]
-  edge [
-    source 171
-    target 290
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 171
-    target 361
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 171
-    target 279
-    co_weight 0.7878787878787878
-  ]
-  edge [
-    source 171
-    target 18
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 171
-    target 277
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 171
-    target 86
-    co_weight 0.9393939393939394
+    co_weight 0.9375
   ]
   edge [
     source 172
@@ -7720,100 +4089,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 172
-    target 385
-    co_weight 0.7912087912087912
-  ]
-  edge [
-    source 172
-    target 372
-    co_weight 0.8143712574850299
-  ]
-  edge [
     source 173
     target 149
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 173
-    target 274
-    co_weight 0.929869465062708
-  ]
-  edge [
-    source 173
-    target 90
-    co_weight 0.9214230867673406
-  ]
-  edge [
-    source 173
-    target 399
-    co_weight 0.9315960912052117
-  ]
-  edge [
-    source 173
-    target 276
-    co_weight 0.9203187250996016
-  ]
-  edge [
-    source 173
-    target 315
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 173
-    target 108
-    co_weight 0.9373601789709172
-  ]
-  edge [
-    source 173
-    target 346
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 173
-    target 336
-    co_weight 0.8666666666666667
-  ]
-  edge [
-    source 173
-    target 255
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 173
-    target 415
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 173
-    target 135
-    co_weight 0.5
-  ]
-  edge [
-    source 173
-    target 185
-    co_weight 0.9117647058823529
-  ]
-  edge [
-    source 173
-    target 176
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 173
-    target 297
-    co_weight 0.9375
-  ]
-  edge [
-    source 173
-    target 258
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 173
-    target 259
-    co_weight 0.0
   ]
   edge [
     source 174
@@ -7834,66 +4113,16 @@ graph [
     co_weight 1
   ]
   edge [
-    source 176
-    target 90
-    co_weight 0.8461538461538461
-  ]
-  edge [
-    source 176
-    target 341
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 176
-    target 147
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 176
-    target 366
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 176
-    target 417
-    co_weight 0.9230769230769231
-  ]
-  edge [
     source 177
     target 139
     relation "IS_A"
     co_weight 1
   ]
   edge [
-    source 177
-    target 274
-    co_weight 0.9387755102040817
-  ]
-  edge [
-    source 177
-    target 218
-    co_weight 0.8979591836734694
-  ]
-  edge [
-    source 177
-    target 373
-    co_weight 0.9387755102040817
-  ]
-  edge [
     source 178
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 178
-    target 373
-    co_weight 0.9310344827586207
-  ]
-  edge [
-    source 178
-    target 187
-    co_weight 0.9310344827586207
   ]
   edge [
     source 179
@@ -7912,21 +4141,6 @@ graph [
     target 182
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 181
-    target 233
-    co_weight 0.8611111111111112
-  ]
-  edge [
-    source 181
-    target 344
-    co_weight 0.7777777777777778
-  ]
-  edge [
-    source 181
-    target 90
-    co_weight 0.8888888888888888
   ]
   edge [
     source 182
@@ -7953,31 +4167,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 185
-    target 187
-    co_weight 0.9117647058823529
-  ]
-  edge [
-    source 185
-    target 344
-    co_weight 0.9117647058823529
-  ]
-  edge [
-    source 185
-    target 274
-    co_weight 0.8235294117647058
-  ]
-  edge [
-    source 185
-    target 358
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 185
-    target 161
-    co_weight 0.9117647058823529
-  ]
-  edge [
     source 186
     target 49
     relation "IS_A"
@@ -7990,40 +4179,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 187
-    target 373
-    co_weight 0.9292565947242206
-  ]
-  edge [
-    source 187
-    target 312
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 187
-    target 256
-    co_weight 0.8235294117647058
-  ]
-  edge [
     source 188
     target 163
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 188
-    target 161
-    co_weight 0.8953488372093024
-  ]
-  edge [
-    source 188
-    target 346
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 188
-    target 365
-    co_weight 0.6666666666666667
   ]
   edge [
     source 189
@@ -8050,31 +4209,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 192
-    target 381
-    co_weight 0.9240506329113924
-  ]
-  edge [
-    source 192
-    target 274
-    co_weight 0.9367088607594937
-  ]
-  edge [
-    source 192
-    target 361
-    co_weight 0.9240506329113924
-  ]
-  edge [
-    source 192
-    target 161
-    co_weight 0.9367088607594937
-  ]
-  edge [
-    source 192
-    target 290
-    co_weight 0.9367088607594937
-  ]
-  edge [
     source 193
     target 18
     relation "IS_A"
@@ -8087,41 +4221,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 194
-    target 161
-    co_weight 0.8653846153846154
-  ]
-  edge [
-    source 194
-    target 195
-    co_weight 0.8636363636363636
-  ]
-  edge [
-    source 194
-    target 274
-    co_weight 0.9038461538461539
-  ]
-  edge [
-    source 194
-    target 279
-    co_weight 0.8653846153846154
-  ]
-  edge [
-    source 194
-    target 361
-    co_weight 0.8653846153846154
-  ]
-  edge [
-    source 194
-    target 368
-    co_weight 0.8653846153846154
-  ]
-  edge [
-    source 194
-    target 272
-    co_weight 0.9230769230769231
-  ]
-  edge [
     source 195
     target 18
     relation "IS_A"
@@ -8129,83 +4228,13 @@ graph [
   ]
   edge [
     source 195
-    target 161
-    co_weight 0.5909090909090908
-  ]
-  edge [
-    source 195
-    target 274
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 195
-    target 277
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 195
-    target 279
-    co_weight 0.6818181818181819
-  ]
-  edge [
-    source 195
-    target 361
-    co_weight 0.7727272727272727
-  ]
-  edge [
-    source 195
-    target 272
-    co_weight 0.8181818181818181
-  ]
-  edge [
-    source 195
-    target 172
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 195
     target 252
-    co_weight 0.9285714285714286
+    co_weight 0.9375
   ]
   edge [
     source 195
     target 347
-    co_weight 0.75
-  ]
-  edge [
-    source 195
-    target 368
-    co_weight 0.7272727272727273
-  ]
-  edge [
-    source 195
-    target 432
-    co_weight 0.8636363636363636
-  ]
-  edge [
-    source 195
-    target 373
-    co_weight 0.8636363636363636
-  ]
-  edge [
-    source 195
-    target 403
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 195
-    target 401
-    co_weight 0.8636363636363636
-  ]
-  edge [
-    source 195
-    target 381
-    co_weight 0.8636363636363636
-  ]
-  edge [
-    source 195
-    target 90
-    co_weight 0.9090909090909091
+    co_weight 0.9375
   ]
   edge [
     source 196
@@ -8214,41 +4243,21 @@ graph [
     co_weight 1
   ]
   edge [
-    source 196
-    target 161
-    co_weight 0.0
-  ]
-  edge [
     source 197
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 197
-    target 161
-    co_weight 0.9106382978723404
   ]
   edge [
     source 198
     target 161
     relation "IS_A"
-    co_weight 0.0
+    co_weight 1
   ]
   edge [
     source 198
     target 367
-    co_weight 0.0
-  ]
-  edge [
-    source 198
-    target 197
-    co_weight 0.6571428571428571
-  ]
-  edge [
-    source 198
-    target 90
-    co_weight 0.8
+    co_weight 0.9375
   ]
   edge [
     source 199
@@ -8257,100 +4266,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 199
-    target 213
-    co_weight 0.92
-  ]
-  edge [
-    source 199
-    target 409
-    co_weight 0.9236111111111112
-  ]
-  edge [
-    source 199
-    target 363
-    co_weight 0.8602941176470589
-  ]
-  edge [
-    source 199
-    target 278
-    co_weight 0.8918918918918919
-  ]
-  edge [
-    source 199
-    target 50
-    co_weight 0.9012345679012346
-  ]
-  edge [
-    source 199
-    target 329
-    co_weight 0.8849557522123894
-  ]
-  edge [
-    source 199
-    target 352
-    co_weight 0.9117647058823529
-  ]
-  edge [
-    source 199
-    target 275
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 199
-    target 250
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 199
-    target 238
-    co_weight 0.9101123595505618
-  ]
-  edge [
-    source 199
-    target 200
-    co_weight 0.4285714285714286
-  ]
-  edge [
-    source 199
-    target 216
-    co_weight 0.9333333333333333
-  ]
-  edge [
-    source 199
-    target 67
-    co_weight 0.8181818181818181
-  ]
-  edge [
-    source 199
-    target 0
-    co_weight 0.0
-  ]
-  edge [
     source 200
     target 213
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 200
-    target 417
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 200
-    target 363
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 200
-    target 373
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 200
-    target 401
-    co_weight 0.8571428571428572
   ]
   edge [
     source 201
@@ -8371,83 +4290,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 203
-    target 274
-    co_weight 0.9014373716632443
-  ]
-  edge [
     source 204
     target 106
     relation "IS_A"
-    co_weight 0.0
-    jaccard_weight 0.1323529411764706
-    lift_weight 45.5735294117647
-    chi_square 402.3301970302685
-  ]
-  edge [
-    source 204
-    target 381
-    co_weight 0.5555555555555556
-  ]
-  edge [
-    source 204
-    target 382
-    co_weight 0.7777777777777778
-  ]
-  edge [
-    source 204
-    target 432
-    co_weight 0.2222222222222222
-  ]
-  edge [
-    source 204
-    target 274
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 204
-    target 161
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 204
-    target 188
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 204
-    target 279
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 204
-    target 368
-    co_weight 0.7777777777777778
-  ]
-  edge [
-    source 204
-    target 261
-    co_weight 0.7777777777777778
-  ]
-  edge [
-    source 204
-    target 361
-    co_weight 0.7777777777777778
-  ]
-  edge [
-    source 204
-    target 94
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 204
-    target 290
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 204
-    target 355
-    co_weight 0.8888888888888888
+    co_weight 0.9375
   ]
   edge [
     source 205
@@ -8460,21 +4306,6 @@ graph [
     target 49
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 206
-    target 90
-    co_weight 0.5555555555555556
-  ]
-  edge [
-    source 206
-    target 373
-    co_weight 0.9333333333333333
-  ]
-  edge [
-    source 206
-    target 147
-    co_weight 0.9111111111111111
   ]
   edge [
     source 207
@@ -8501,55 +4332,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 210
-    target 381
-    co_weight 0.9340659340659341
-  ]
-  edge [
-    source 210
-    target 316
-    co_weight 0.9340659340659341
-  ]
-  edge [
-    source 210
-    target 290
-    co_weight 0.9010989010989011
-  ]
-  edge [
-    source 210
-    target 161
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 210
-    target 415
-    co_weight 0.8571428571428572
-  ]
-  edge [
     source 211
     target 184
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 211
-    target 67
-    co_weight 0.9393939393939394
-  ]
-  edge [
-    source 211
-    target 273
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 211
-    target 393
-    co_weight 0.925207756232687
-  ]
-  edge [
-    source 211
-    target 411
-    co_weight 0.92
   ]
   edge [
     source 212
@@ -8558,50 +4344,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 212
-    target 161
-    co_weight 0.0
-  ]
-  edge [
     source 213
     target 52
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 213
-    target 90
-    co_weight 0.9206896551724137
-  ]
-  edge [
-    source 213
-    target 388
-    co_weight 0.8958990536277602
-  ]
-  edge [
-    source 213
-    target 26
-    co_weight 0.9272727272727272
-  ]
-  edge [
-    source 213
-    target 312
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 213
-    target 67
-    co_weight 0.8181818181818181
-  ]
-  edge [
-    source 213
-    target 291
-    co_weight 0.7692307692307692
-  ]
-  edge [
-    source 213
-    target 0
-    co_weight 0.0
   ]
   edge [
     source 214
@@ -8622,16 +4368,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 216
-    target 344
-    co_weight 0.9333333333333333
-  ]
-  edge [
-    source 216
-    target 373
-    co_weight 0.9333333333333333
-  ]
-  edge [
     source 217
     target 139
     relation "IS_A"
@@ -8646,15 +4382,7 @@ graph [
   edge [
     source 218
     target 297
-    co_weight 0.6458333333333333
-    jaccard_weight 0.1259259259259259
-    lift_weight 10.553485576923077
-    chi_square 154.51862081195853
-  ]
-  edge [
-    source 218
-    target 291
-    co_weight 0.9230769230769231
+    co_weight 0.9375
   ]
   edge [
     source 219
@@ -8687,11 +4415,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 223
-    target 337
-    co_weight 0.9047619047619048
-  ]
-  edge [
     source 224
     target 22
     relation "IS_A"
@@ -8714,21 +4437,6 @@ graph [
     target 11
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 227
-    target 274
-    co_weight 0.8
-  ]
-  edge [
-    source 227
-    target 261
-    co_weight 0.8
-  ]
-  edge [
-    source 227
-    target 366
-    co_weight 0.8
   ]
   edge [
     source 228
@@ -8767,16 +4475,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 233
-    target 182
-    co_weight 0.935064935064935
-  ]
-  edge [
-    source 233
-    target 256
-    co_weight 0.8823529411764706
-  ]
-  edge [
     source 234
     target 22
     relation "IS_A"
@@ -8795,36 +4493,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 236
-    target 373
-    co_weight 0.9284984678243106
-  ]
-  edge [
-    source 236
-    target 90
-    co_weight 0.9371807967313586
-  ]
-  edge [
-    source 236
-    target 400
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 236
-    target 352
-    co_weight 0.9117647058823529
-  ]
-  edge [
-    source 236
-    target 334
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 236
-    target 299
-    co_weight 0.5
-  ]
-  edge [
     source 237
     target 49
     relation "IS_A"
@@ -8835,36 +4503,6 @@ graph [
     target 9
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 238
-    target 90
-    co_weight 0.9325842696629214
-  ]
-  edge [
-    source 238
-    target 329
-    co_weight 0.9325842696629214
-  ]
-  edge [
-    source 238
-    target 363
-    co_weight 0.8426966292134832
-  ]
-  edge [
-    source 238
-    target 330
-    co_weight 0.9101123595505618
-  ]
-  edge [
-    source 238
-    target 409
-    co_weight 0.9325842696629214
-  ]
-  edge [
-    source 238
-    target 274
-    co_weight 0.9325842696629214
   ]
   edge [
     source 239
@@ -8939,34 +4577,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 250
-    target 330
-    co_weight 0.75
-  ]
-  edge [
-    source 250
-    target 409
-    co_weight 0.6730769230769231
-    jaccard_weight 0.09497206703910614
-    lift_weight 7.035657051282051
-    chi_square 93.88724220943665
-  ]
-  edge [
-    source 250
-    target 363
-    co_weight 0.8846153846153846
-  ]
-  edge [
-    source 250
-    target 261
-    co_weight 0.9038461538461539
-  ]
-  edge [
-    source 250
-    target 300
-    co_weight 0.9
-  ]
-  edge [
     source 251
     target 15
     relation "IS_A"
@@ -8980,59 +4590,13 @@ graph [
   ]
   edge [
     source 252
-    target 161
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 252
     target 347
-    co_weight 0.5
-    jaccard_weight 0.125
-    lift_weight 110.67857142857143
-    chi_square 218.64389313328303
+    co_weight 0.9375
   ]
   edge [
     source 252
     target 348
-    co_weight 0.0
-    jaccard_weight 0.07142857142857142
-    lift_weight 221.35714285714286
-    chi_square 220.42827169602512
-  ]
-  edge [
-    source 252
-    target 381
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 252
-    target 382
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 252
-    target 172
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 252
-    target 272
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 252
-    target 368
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 252
-    target 373
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 252
-    target 399
-    co_weight 0.9285714285714286
+    co_weight 0.9375
   ]
   edge [
     source 253
@@ -9047,106 +4611,16 @@ graph [
     co_weight 1
   ]
   edge [
-    source 254
-    target 274
-    co_weight 0.8754863813229572
-  ]
-  edge [
-    source 254
-    target 290
-    co_weight 0.9377431906614786
-  ]
-  edge [
-    source 254
-    target 364
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 254
-    target 256
-    co_weight 0.3529411764705882
-  ]
-  edge [
-    source 254
-    target 381
-    co_weight 0.9221789883268483
-  ]
-  edge [
-    source 254
-    target 365
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 254
-    target 420
-    co_weight 0.9333333333333333
-  ]
-  edge [
     source 255
     target 108
     relation "IS_A"
     co_weight 1
   ]
   edge [
-    source 255
-    target 254
-    co_weight 0.4285714285714286
-  ]
-  edge [
-    source 255
-    target 172
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 255
-    target 161
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 255
-    target 372
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 255
-    target 373
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 255
-    target 417
-    co_weight 0.9285714285714286
-  ]
-  edge [
     source 256
     target 163
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 256
-    target 381
-    co_weight 0.7058823529411764
-  ]
-  edge [
-    source 256
-    target 382
-    co_weight 0.8823529411764706
-  ]
-  edge [
-    source 256
-    target 161
-    co_weight 0.7058823529411764
-  ]
-  edge [
-    source 256
-    target 344
-    co_weight 0.8823529411764706
-  ]
-  edge [
-    source 256
-    target 279
-    co_weight 0.8235294117647058
   ]
   edge [
     source 257
@@ -9161,36 +4635,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 258
-    target 161
-    co_weight 0.7857142857142857
-  ]
-  edge [
-    source 258
-    target 373
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 258
-    target 261
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 258
-    target 366
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 258
-    target 381
-    co_weight 0.9285714285714286
-  ]
-  edge [
-    source 258
-    target 403
-    co_weight 0.9285714285714286
-  ]
-  edge [
     source 259
     target 161
     relation "IS_A"
@@ -9199,30 +4643,7 @@ graph [
   edge [
     source 259
     target 258
-    co_weight 0.0
-    jaccard_weight 0.07142857142857142
-    lift_weight 221.35714285714286
-    chi_square 220.42827169602512
-  ]
-  edge [
-    source 259
-    target 261
-    co_weight 0.0
-  ]
-  edge [
-    source 259
-    target 366
-    co_weight 0.0
-  ]
-  edge [
-    source 259
-    target 381
-    co_weight 0.0
-  ]
-  edge [
-    source 259
-    target 403
-    co_weight 0.0
+    co_weight 0.9375
   ]
   edge [
     source 260
@@ -9231,55 +4652,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 260
-    target 161
-    co_weight 0.9285714285714286
-  ]
-  edge [
     source 261
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 261
-    target 77
-    co_weight 0.7560975609756098
-  ]
-  edge [
-    source 261
-    target 366
-    co_weight 0.8454356846473029
-  ]
-  edge [
-    source 261
-    target 381
-    co_weight 0.9374262101534829
-  ]
-  edge [
-    source 261
-    target 106
-    co_weight 0.9117647058823529
-  ]
-  edge [
-    source 261
-    target 400
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 261
-    target 347
-    co_weight 0.75
-  ]
-  edge [
-    source 261
-    target 309
-    co_weight 0.75
-  ]
-  edge [
-    source 261
-    target 299
-    co_weight 0.5
   ]
   edge [
     source 262
@@ -9294,16 +4670,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 263
-    target 90
-    co_weight 0.8
-  ]
-  edge [
-    source 263
-    target 161
-    co_weight 0.9
-  ]
-  edge [
     source 264
     target 51
     relation "IS_A"
@@ -9312,10 +4678,7 @@ graph [
   edge [
     source 264
     target 263
-    co_weight 0.0
-    jaccard_weight 0.1
-    lift_weight 309.9
-    chi_square 308.9997094899936
+    co_weight 0.9375
   ]
   edge [
     source 265
@@ -9366,294 +4729,16 @@ graph [
     co_weight 1
   ]
   edge [
-    source 272
-    target 361
-    co_weight 0.631578947368421
-    jaccard_weight 0.13793103448275862
-    lift_weight 1.8415110356536502
-    chi_square 59.69640001137497
-  ]
-  edge [
-    source 272
-    target 161
-    co_weight 0.868421052631579
-  ]
-  edge [
-    source 272
-    target 290
-    co_weight 0.9243421052631579
-  ]
-  edge [
-    source 272
-    target 261
-    co_weight 0.9111842105263158
-  ]
-  edge [
-    source 272
-    target 373
-    co_weight 0.9375
-  ]
-  edge [
-    source 272
-    target 90
-    co_weight 0.9375
-  ]
-  edge [
-    source 272
-    target 279
-    co_weight 0.9342105263157895
-  ]
-  edge [
-    source 272
-    target 368
-    co_weight 0.8585526315789473
-  ]
-  edge [
-    source 272
-    target 364
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 272
-    target 347
-    co_weight 0.75
-  ]
-  edge [
-    source 272
-    target 354
-    co_weight 0.6666666666666667
-  ]
-  edge [
     source 273
     target 184
     relation "IS_A"
     co_weight 1
   ]
   edge [
-    source 273
-    target 393
-    co_weight 0.9393939393939394
-  ]
-  edge [
     source 274
     target 161
     relation "IS_A"
-    co_weight 0.8413615928066795
-  ]
-  edge [
-    source 274
-    target 277
-    co_weight 0.1295116772823779
-  ]
-  edge [
-    source 274
-    target 276
-    co_weight 0.10358565737051795
-  ]
-  edge [
-    source 274
-    target 290
-    co_weight 0.927336999214454
-  ]
-  edge [
-    source 274
-    target 94
-    co_weight 0.8594771241830066
-  ]
-  edge [
-    source 274
-    target 355
-    co_weight 0.8677494199535962
-  ]
-  edge [
-    source 274
-    target 172
-    co_weight 0.9352380952380952
-  ]
-  edge [
-    source 274
-    target 279
-    co_weight 0.8744460856720827
-  ]
-  edge [
-    source 274
-    target 368
-    co_weight 0.9310850439882699
-  ]
-  edge [
-    source 274
-    target 381
-    co_weight 0.9126328217237308
-  ]
-  edge [
-    source 274
-    target 385
-    co_weight 0.9010989010989011
-  ]
-  edge [
-    source 274
-    target 403
-    co_weight 0.8181818181818181
-  ]
-  edge [
-    source 274
-    target 382
-    co_weight 0.8429752066115702
-  ]
-  edge [
-    source 274
-    target 340
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 274
-    target 372
-    co_weight 0.7125748502994012
-  ]
-  edge [
-    source 274
-    target 396
-    co_weight 0.9347826086956522
-  ]
-  edge [
-    source 274
-    target 366
-    co_weight 0.9128630705394191
-  ]
-  edge [
-    source 274
-    target 420
-    co_weight 0.8
-  ]
-  edge [
-    source 274
-    target 275
-    co_weight 0.0625
-  ]
-  edge [
-    source 274
-    target 333
-    co_weight 0.9342465753424658
-  ]
-  edge [
-    source 274
-    target 308
-    co_weight 0.8987341772151899
-  ]
-  edge [
-    source 274
-    target 295
-    co_weight 0.9233576642335767
-  ]
-  edge [
-    source 274
-    target 188
-    co_weight 0.8546511627906976
-  ]
-  edge [
-    source 274
-    target 344
-    co_weight 0.9053069719042663
-  ]
-  edge [
-    source 274
-    target 399
-    co_weight 0.9087947882736156
-  ]
-  edge [
-    source 274
-    target 77
-    co_weight 0.9146341463414634
-  ]
-  edge [
-    source 274
-    target 387
-    co_weight 0.8949771689497716
-  ]
-  edge [
-    source 274
-    target 256
-    co_weight 0.0
-  ]
-  edge [
-    source 274
-    target 106
-    co_weight 0.9264705882352942
-  ]
-  edge [
-    source 274
-    target 378
-    co_weight 0.9032258064516129
-  ]
-  edge [
-    source 274
-    target 78
-    co_weight 0.8842105263157894
-  ]
-  edge [
-    source 274
-    target 50
-    co_weight 0.8024691358024691
-  ]
-  edge [
-    source 274
-    target 364
-    co_weight 0.7916666666666666
-  ]
-  edge [
-    source 274
-    target 365
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 274
-    target 336
-    co_weight 0.4
-  ]
-  edge [
-    source 274
-    target 334
-    co_weight 0.858974358974359
-  ]
-  edge [
-    source 274
-    target 283
-    co_weight 0.5
-  ]
-  edge [
-    source 274
-    target 358
-    co_weight 0.75
-  ]
-  edge [
-    source 274
-    target 289
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 274
-    target 346
-    co_weight 0.5833333333333333
-  ]
-  edge [
-    source 274
-    target 291
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 274
-    target 260
-    co_weight 0.6428571428571428
-  ]
-  edge [
-    source 274
-    target 176
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 274
-    target 258
-    co_weight 0.8571428571428572
+    co_weight 1
   ]
   edge [
     source 275
@@ -9662,35 +4747,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 275
-    target 90
-    co_weight 0.8958333333333334
-  ]
-  edge [
-    source 275
-    target 161
-    co_weight 0.8958333333333334
-  ]
-  edge [
     source 276
     target 51
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 276
-    target 161
-    co_weight 0.8247011952191234
-  ]
-  edge [
-    source 276
-    target 277
-    co_weight 0.9203187250996016
-  ]
-  edge [
-    source 276
-    target 90
-    co_weight 0.9243027888446215
   ]
   edge [
     source 277
@@ -9699,114 +4759,21 @@ graph [
     co_weight 1
   ]
   edge [
-    source 277
-    target 161
-    co_weight 0.1295116772823779
-  ]
-  edge [
-    source 277
-    target 90
-    co_weight 0.9341825902335457
-  ]
-  edge [
-    source 277
-    target 372
-    co_weight 0.9041916167664671
-  ]
-  edge [
-    source 277
-    target 336
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 277
-    target 346
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 277
-    target 260
-    co_weight 0.9285714285714286
-  ]
-  edge [
     source 278
     target 67
     relation "IS_A"
-    co_weight 0.8181818181818181
-  ]
-  edge [
-    source 278
-    target 423
-    co_weight 0.8558558558558559
-  ]
-  edge [
-    source 278
-    target 330
-    co_weight 0.8738738738738738
-  ]
-  edge [
-    source 278
-    target 388
-    co_weight 0.9279279279279279
+    co_weight 1
   ]
   edge [
     source 278
     target 291
-    co_weight 0.5384615384615384
+    co_weight 0.9375
   ]
   edge [
     source 279
     target 161
     relation "IS_A"
-    co_weight 0.2570162481536189
-  ]
-  edge [
-    source 279
-    target 368
-    co_weight 0.8493353028064993
-    jaccard_weight 0.081145584725537
-    lift_weight 0.684618616719441
-    chi_square 24.3117341311417
-  ]
-  edge [
-    source 279
-    target 381
-    co_weight 0.9010339734121122
-  ]
-  edge [
-    source 279
-    target 403
-    co_weight 0.9015151515151515
-  ]
-  edge [
-    source 279
-    target 361
-    co_weight 0.917741935483871
-  ]
-  edge [
-    source 279
-    target 106
-    co_weight 0.6911764705882353
-  ]
-  edge [
-    source 279
-    target 364
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 279
-    target 382
-    co_weight 0.8760330578512396
-  ]
-  edge [
-    source 279
-    target 354
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 279
-    target 353
-    co_weight 0.5
+    co_weight 1
   ]
   edge [
     source 280
@@ -9828,40 +4795,20 @@ graph [
   ]
   edge [
     source 282
-    target 373
-    co_weight 0.9
-  ]
-  edge [
-    source 282
     target 283
-    co_weight 0.5
-  ]
-  edge [
-    source 282
-    target 417
-    co_weight 0.9
+    co_weight 0.9375
   ]
   edge [
     source 283
     target 161
     relation "IS_A"
-    co_weight 0.5
+    co_weight 1
   ]
   edge [
     source 284
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 284
-    target 381
-    co_weight 0.8947368421052632
-  ]
-  edge [
-    source 284
-    target 393
-    co_weight 0.8947368421052632
   ]
   edge [
     source 285
@@ -9874,11 +4821,6 @@ graph [
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 286
-    target 388
-    co_weight 0.8571428571428572
   ]
   edge [
     source 287
@@ -9894,13 +4836,8 @@ graph [
   ]
   edge [
     source 288
-    target 344
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 288
     target 289
-    co_weight 0.4285714285714286
+    co_weight 0.9375
   ]
   edge [
     source 289
@@ -9909,141 +4846,22 @@ graph [
     co_weight 1
   ]
   edge [
-    source 289
-    target 172
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 289
-    target 344
-    co_weight 0.8571428571428572
-  ]
-  edge [
     source 290
     target 8
     relation "IS_A"
     co_weight 1
   ]
   edge [
-    source 290
-    target 94
-    co_weight 0.41503267973856206
-    jaccard_weight 0.06696595585484474
-    lift_weight 0.7120242441045547
-    chi_square 129.63348270731484
-  ]
-  edge [
-    source 290
-    target 355
-    co_weight 0.5220417633410672
-    jaccard_weight 0.07434139299891736
-    lift_weight 0.5817724176771534
-    chi_square 403.15461154505084
-  ]
-  edge [
-    source 290
-    target 361
-    co_weight 0.9032258064516129
-  ]
-  edge [
-    source 290
-    target 381
-    co_weight 0.8972845336481701
-  ]
-  edge [
-    source 290
-    target 403
-    co_weight 0.9015151515151515
-  ]
-  edge [
-    source 290
-    target 368
-    co_weight 0.9281524926686217
-  ]
-  edge [
-    source 290
-    target 364
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 290
-    target 347
-    co_weight 0.75
-  ]
-  edge [
-    source 290
-    target 106
-    co_weight 0.8823529411764706
-  ]
-  edge [
-    source 290
-    target 420
-    co_weight 0.9333333333333333
-  ]
-  edge [
-    source 290
-    target 415
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 290
-    target 421
-    co_weight 0.5
-  ]
-  edge [
-    source 290
-    target 336
-    co_weight 0.9333333333333333
-  ]
-  edge [
     source 291
     target 67
     relation "IS_A"
-    co_weight 0.7692307692307692
-    jaccard_weight 0.06976744186046512
-    lift_weight 21.67132867132867
-    chi_square 60.040953515540465
-  ]
-  edge [
-    source 291
-    target 329
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 291
-    target 330
-    co_weight 0.6153846153846154
-  ]
-  edge [
-    source 291
-    target 352
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 291
-    target 388
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 291
-    target 423
-    co_weight 0.5384615384615384
-  ]
-  edge [
-    source 291
-    target 363
-    co_weight 0.9230769230769231
+    co_weight 0.9375
   ]
   edge [
     source 292
     target 149
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 292
-    target 108
-    co_weight 0.8888888888888888
   ]
   edge [
     source 293
@@ -10064,16 +4882,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 295
-    target 90
-    co_weight 0.9379562043795621
-  ]
-  edge [
-    source 295
-    target 297
-    co_weight 0.9166666666666666
-  ]
-  edge [
     source 296
     target 65
     relation "IS_A"
@@ -10081,40 +4889,14 @@ graph [
   ]
   edge [
     source 296
-    target 147
-    co_weight 0.7521008403361344
-  ]
-  edge [
-    source 296
     target 350
-    co_weight 0.052631578947368474
-    jaccard_weight 0.07531380753138076
-    lift_weight 12.335692171605483
-    chi_square 204.35235530220845
-  ]
-  edge [
-    source 296
-    target 90
-    co_weight 0.907563025210084
-  ]
-  edge [
-    source 296
-    target 349
-    co_weight 0.7575757575757576
-    jaccard_weight 0.09467455621301775
-    lift_weight 3.1566080977845683
-    chi_square 53.34325632706234
+    co_weight 0.9375
   ]
   edge [
     source 297
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 297
-    target 90
-    co_weight 0.9166666666666666
   ]
   edge [
     source 298
@@ -10129,11 +4911,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 299
-    target 90
-    co_weight 0.5
-  ]
-  edge [
     source 300
     target 9
     relation "IS_A"
@@ -10142,58 +4919,12 @@ graph [
   edge [
     source 300
     target 329
-    co_weight 0.44999999999999996
-    jaccard_weight 0.09016393442622951
-    lift_weight 15.08362831858407
-    chi_square 151.09831916988668
-  ]
-  edge [
-    source 300
-    target 363
-    co_weight 0.75
-  ]
-  edge [
-    source 300
-    target 388
-    co_weight 0.75
-  ]
-  edge [
-    source 300
-    target 50
-    co_weight 0.85
-  ]
-  edge [
-    source 300
-    target 330
-    co_weight 0.4
+    co_weight 0.9375
   ]
   edge [
     source 300
     target 352
-    co_weight 0.7
-    jaccard_weight 0.125
-    lift_weight 27.344117647058823
-    chi_square 154.97356924719702
-  ]
-  edge [
-    source 300
-    target 361
-    co_weight 0.9
-  ]
-  edge [
-    source 300
-    target 417
-    co_weight 0.85
-  ]
-  edge [
-    source 300
-    target 409
-    co_weight 0.8
-  ]
-  edge [
-    source 300
-    target 373
-    co_weight 0.9
+    co_weight 0.9375
   ]
   edge [
     source 301
@@ -10244,35 +4975,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 308
-    target 161
-    co_weight 0.8860759493670887
-  ]
-  edge [
-    source 308
-    target 373
-    co_weight 0.9240506329113924
-  ]
-  edge [
-    source 308
-    target 401
-    co_weight 0.8987341772151899
-  ]
-  edge [
     source 309
     target 106
     relation "IS_A"
-    co_weight 0.0
-  ]
-  edge [
-    source 309
-    target 381
-    co_weight 0.5
-  ]
-  edge [
-    source 309
-    target 382
-    co_weight 0.75
+    co_weight 0.9375
   ]
   edge [
     source 310
@@ -10288,34 +4994,14 @@ graph [
   ]
   edge [
     source 311
-    target 363
-    co_weight 0.0
-  ]
-  edge [
-    source 311
     target 409
-    co_weight 0.0
+    co_weight 0.9375
   ]
   edge [
     source 312
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 312
-    target 90
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 312
-    target 382
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 312
-    target 161
-    co_weight 0.9166666666666666
   ]
   edge [
     source 313
@@ -10337,31 +5023,8 @@ graph [
   ]
   edge [
     source 315
-    target 341
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 315
-    target 393
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 315
-    target 388
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 315
     target 314
-    co_weight 0.8
-    jaccard_weight 0.06666666666666667
-    lift_weight 56.345454545454544
-    chi_square 54.645019077234856
-  ]
-  edge [
-    source 315
-    target 316
-    co_weight 0.9090909090909091
+    co_weight 0.9375
   ]
   edge [
     source 316
@@ -10370,45 +5033,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 316
-    target 410
-    co_weight 0.8627450980392157
-  ]
-  edge [
-    source 316
-    target 411
-    co_weight 0.8
-  ]
-  edge [
-    source 316
-    target 400
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 316
-    target 362
-    co_weight 0.9090909090909091
-  ]
-  edge [
     source 317
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 317
-    target 393
-    co_weight 0.8947368421052632
-  ]
-  edge [
-    source 317
-    target 172
-    co_weight 0.9210526315789473
-  ]
-  edge [
-    source 317
-    target 373
-    co_weight 0.9210526315789473
   ]
   edge [
     source 318
@@ -10418,21 +5046,8 @@ graph [
   ]
   edge [
     source 318
-    target 373
-    co_weight 0.9347826086956522
-  ]
-  edge [
-    source 318
-    target 401
-    co_weight 0.9347826086956522
-  ]
-  edge [
-    source 318
     target 317
-    co_weight 0.7631578947368421
-    jaccard_weight 0.12
-    lift_weight 15.955949656750573
-    chi_square 129.65846024652964
+    co_weight 0.9375
   ]
   edge [
     source 319
@@ -10501,87 +5116,16 @@ graph [
     co_weight 1
   ]
   edge [
-    source 329
-    target 330
-    co_weight 0.752212389380531
-  ]
-  edge [
-    source 329
-    target 363
-    co_weight 0.7964601769911505
-  ]
-  edge [
-    source 329
-    target 388
-    co_weight 0.9026548672566371
-  ]
-  edge [
-    source 329
-    target 50
-    co_weight 0.8024691358024691
-    jaccard_weight 0.0898876404494382
-    lift_weight 5.417240249098656
-    chi_square 61.41550697428987
-  ]
-  edge [
-    source 329
-    target 352
-    co_weight 0.6470588235294117
-    jaccard_weight 0.08888888888888889
-    lift_weight 9.679333680374805
-    chi_square 98.00120712831787
-  ]
-  edge [
-    source 329
-    target 409
-    co_weight 0.9380530973451328
-  ]
-  edge [
-    source 329
-    target 0
-    co_weight 0.0
-  ]
-  edge [
     source 330
     target 9
     relation "IS_A"
     co_weight 1
   ]
   edge [
-    source 330
-    target 388
-    co_weight 0.9371614301191766
-  ]
-  edge [
-    source 330
-    target 50
-    co_weight 0.8148148148148149
-  ]
-  edge [
-    source 330
-    target 409
-    co_weight 0.8194444444444444
-  ]
-  edge [
-    source 330
-    target 363
-    co_weight 0.8852941176470588
-  ]
-  edge [
-    source 330
-    target 362
-    co_weight 0.8181818181818181
-  ]
-  edge [
     source 331
     target 149
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 331
-    target 349
-    co_weight 0.8970588235294118
   ]
   edge [
     source 332
@@ -10596,21 +5140,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 333
-    target 334
-    co_weight 0.7948717948717949
-  ]
-  edge [
-    source 333
-    target 340
-    co_weight 0.8333333333333334
-  ]
-  edge [
-    source 333
-    target 50
-    co_weight 0.8765432098765432
-  ]
-  edge [
     source 334
     target 49
     relation "IS_A"
@@ -10619,7 +5148,7 @@ graph [
   edge [
     source 334
     target 367
-    co_weight 0.0
+    co_weight 0.9375
   ]
   edge [
     source 335
@@ -10634,21 +5163,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 336
-    target 161
-    co_weight 0.33333333333333337
-  ]
-  edge [
-    source 336
-    target 172
-    co_weight 0.9333333333333333
-  ]
-  edge [
-    source 336
-    target 355
-    co_weight 0.9333333333333333
-  ]
-  edge [
     source 337
     target 8
     relation "IS_A"
@@ -10656,13 +5170,8 @@ graph [
   ]
   edge [
     source 337
-    target 90
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 337
     target 338
-    co_weight 0.0
+    co_weight 0.9375
   ]
   edge [
     source 338
@@ -10689,20 +5198,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 341
-    target 411
-    co_weight 0.92
-  ]
-  edge [
     source 342
     target 49
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 342
-    target 373
-    co_weight 0.8571428571428572
   ]
   edge [
     source 343
@@ -10717,69 +5216,26 @@ graph [
     co_weight 1
   ]
   edge [
-    source 344
-    target 188
-    co_weight 0.36046511627906974
-    jaccard_weight 0.10752688172043011
-    lift_weight 2.0623502649856014
-    chi_square 92.38010438188114
-  ]
-  edge [
-    source 344
-    target 378
-    co_weight 0.9032258064516129
-  ]
-  edge [
-    source 344
-    target 364
-    co_weight 0.75
-  ]
-  edge [
-    source 344
-    target 365
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 344
-    target 358
-    co_weight 0.08333333333333337
-  ]
-  edge [
     source 345
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 345
-    target 161
-    co_weight 0.85
   ]
   edge [
     source 345
     target 346
-    co_weight 0.9166666666666666
+    co_weight 0.9375
   ]
   edge [
     source 345
     target 347
-    co_weight 0.75
+    co_weight 0.9375
   ]
   edge [
     source 346
     target 163
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 346
-    target 161
-    co_weight 0.25
-  ]
-  edge [
-    source 346
-    target 372
-    co_weight 0.9166666666666666
   ]
   edge [
     source 347
@@ -10788,84 +5244,21 @@ graph [
     co_weight 1
   ]
   edge [
-    source 347
-    target 161
-    co_weight 0.25
-  ]
-  edge [
-    source 347
-    target 381
-    co_weight 0.5
-  ]
-  edge [
-    source 347
-    target 382
-    co_weight 0.75
-  ]
-  edge [
-    source 347
-    target 172
-    co_weight 0.75
-  ]
-  edge [
-    source 347
-    target 368
-    co_weight 0.5
-  ]
-  edge [
-    source 347
-    target 361
-    co_weight 0.75
-  ]
-  edge [
-    source 347
-    target 372
-    co_weight 0.75
-  ]
-  edge [
-    source 347
-    target 373
-    co_weight 0.75
-  ]
-  edge [
     source 348
     target 163
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 348
-    target 161
-    co_weight 0.0
   ]
   edge [
     source 348
     target 347
-    co_weight 0.0
-    jaccard_weight 0.25
-    lift_weight 774.75
-    chi_square 773.999757908328
-  ]
-  edge [
-    source 348
-    target 381
-    co_weight 0.0
-  ]
-  edge [
-    source 348
-    target 382
-    co_weight 0.0
+    co_weight 0.9375
   ]
   edge [
     source 349
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 349
-    target 147
-    co_weight 0.9090909090909091
   ]
   edge [
     source 350
@@ -10875,21 +5268,8 @@ graph [
   ]
   edge [
     source 350
-    target 147
-    co_weight 0.7894736842105263
-  ]
-  edge [
-    source 350
-    target 406
-    co_weight 0.8947368421052632
-  ]
-  edge [
-    source 350
     target 349
-    co_weight 0.26315789473684215
-    jaccard_weight 0.10218978102189781
-    lift_weight 17.29904306220096
-    chi_square 225.9462094771185
+    co_weight 0.9375
   ]
   edge [
     source 351
@@ -10904,107 +5284,22 @@ graph [
     co_weight 1
   ]
   edge [
-    source 352
-    target 363
-    co_weight 0.8529411764705882
-  ]
-  edge [
-    source 352
-    target 50
-    co_weight 0.8823529411764706
-  ]
-  edge [
-    source 352
-    target 330
-    co_weight 0.5294117647058824
-  ]
-  edge [
-    source 352
-    target 388
-    co_weight 0.7647058823529411
-  ]
-  edge [
-    source 352
-    target 409
-    co_weight 0.8529411764705882
-  ]
-  edge [
-    source 352
-    target 161
-    co_weight 0.8823529411764706
-  ]
-  edge [
     source 353
     target 49
     relation "IS_A"
     co_weight 1
   ]
   edge [
-    source 353
-    target 95
-    co_weight 0.5
-  ]
-  edge [
-    source 353
-    target 161
-    co_weight 0.5
-  ]
-  edge [
-    source 353
-    target 361
-    co_weight 0.5
-  ]
-  edge [
-    source 353
-    target 381
-    co_weight 0.5
-  ]
-  edge [
-    source 353
-    target 382
-    co_weight 0.5
-  ]
-  edge [
     source 354
     target 49
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 354
-    target 161
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 354
-    target 361
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 354
-    target 368
-    co_weight 0.6666666666666667
-  ]
-  edge [
-    source 354
-    target 381
-    co_weight 0.6666666666666667
   ]
   edge [
     source 355
     target 276
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 355
-    target 403
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 355
-    target 161
-    co_weight 0.8863109048723898
   ]
   edge [
     source 356
@@ -11049,35 +5344,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 362
-    target 401
-    co_weight 0.9090909090909091
-  ]
-  edge [
-    source 362
-    target 393
-    co_weight 0.9090909090909091
-  ]
-  edge [
     source 363
     target 9
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 363
-    target 409
-    co_weight 0.8055555555555556
-  ]
-  edge [
-    source 363
-    target 50
-    co_weight 0.8765432098765432
-  ]
-  edge [
-    source 363
-    target 0
-    co_weight 0.0
   ]
   edge [
     source 364
@@ -11087,34 +5357,14 @@ graph [
   ]
   edge [
     source 364
-    target 161
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 364
-    target 361
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 364
-    target 368
-    co_weight 0.875
-  ]
-  edge [
-    source 364
     target 365
-    co_weight 0.6666666666666667
+    co_weight 0.9375
   ]
   edge [
     source 365
     target 163
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 365
-    target 403
-    co_weight 0.6666666666666667
   ]
   edge [
     source 366
@@ -11129,51 +5379,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 367
-    target 161
-    co_weight 0.0
-  ]
-  edge [
     source 368
     target 18
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 368
-    target 161
-    co_weight 0.7653958944281525
-  ]
-  edge [
-    source 368
-    target 381
-    co_weight 0.8475073313782991
-    jaccard_weight 0.07298245614035087
-    lift_weight 0.5579395278142278
-    chi_square 64.26990990710932
-  ]
-  edge [
-    source 368
-    target 403
-    co_weight 0.7651515151515151
-  ]
-  edge [
-    source 368
-    target 382
-    co_weight 0.8677685950413223
-  ]
-  edge [
-    source 368
-    target 372
-    co_weight 0.9341317365269461
-  ]
-  edge [
-    source 368
-    target 361
-    co_weight 0.8693548387096774
-    jaccard_weight 0.06633906633906633
-    lift_weight 0.5936500804086652
-    chi_square 36.11144104581662
   ]
   edge [
     source 369
@@ -11204,31 +5413,6 @@ graph [
     target 149
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 373
-    target 381
-    co_weight 0.9374262101534829
-  ]
-  edge [
-    source 373
-    target 403
-    co_weight 0.9318181818181819
-  ]
-  edge [
-    source 373
-    target 382
-    co_weight 0.9256198347107438
-  ]
-  edge [
-    source 373
-    target 385
-    co_weight 0.9010989010989011
-  ]
-  edge [
-    source 373
-    target 386
-    co_weight 0.9347826086956522
   ]
   edge [
     source 374
@@ -11285,30 +5469,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 381
-    target 361
-    co_weight 0.9258064516129032
-  ]
-  edge [
-    source 381
-    target 420
-    co_weight 0.9333333333333333
-  ]
-  edge [
     source 382
     target 235
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 382
-    target 381
-    co_weight 0.6528925619834711
-  ]
-  edge [
-    source 382
-    target 361
-    co_weight 0.9173553719008265
   ]
   edge [
     source 383
@@ -11335,11 +5499,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 386
-    target 393
-    co_weight 0.8434782608695652
-  ]
-  edge [
     source 387
     target 90
     relation "IS_A"
@@ -11350,16 +5509,6 @@ graph [
     target 52
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 388
-    target 409
-    co_weight 0.9097222222222222
-  ]
-  edge [
-    source 388
-    target 407
-    co_weight 0.8888888888888888
   ]
   edge [
     source 389
@@ -11410,11 +5559,6 @@ graph [
     co_weight 1
   ]
   edge [
-    source 396
-    target 421
-    co_weight 0.5
-  ]
-  edge [
     source 397
     target 15
     relation "IS_A"
@@ -11439,25 +5583,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 400
-    target 416
-    co_weight 0.8461538461538461
-  ]
-  edge [
-    source 400
-    target 410
-    co_weight 0.9230769230769231
-  ]
-  edge [
     source 401
     target 158
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 401
-    target 416
-    co_weight 0.7158176943699732
   ]
   edge [
     source 402
@@ -11472,28 +5601,10 @@ graph [
     co_weight 1
   ]
   edge [
-    source 403
-    target 381
-    co_weight 0.41666666666666663
-    jaccard_weight 0.08536585365853659
-    lift_weight 2.134297520661157
-    chi_square 66.71860403278305
-  ]
-  edge [
-    source 403
-    target 361
-    co_weight 0.9166666666666666
-  ]
-  edge [
     source 404
     target 9
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 404
-    target 423
-    co_weight 0.5
   ]
   edge [
     source 405
@@ -11506,11 +5617,6 @@ graph [
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 406
-    target 421
-    co_weight 0.0
   ]
   edge [
     source 407
@@ -11577,11 +5683,6 @@ graph [
     target 49
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 417
-    target 421
-    co_weight 0.5
   ]
   edge [
     source 418
@@ -11672,66 +5773,6 @@ graph [
     target 8
     relation "IS_A"
     co_weight 1
-  ]
-  edge [
-    source 432
-    target 161
-    co_weight 0.8943452380952381
-  ]
-  edge [
-    source 432
-    target 381
-    co_weight 0.875
-  ]
-  edge [
-    source 432
-    target 400
-    co_weight 0.9230769230769231
-  ]
-  edge [
-    source 432
-    target 290
-    co_weight 0.9300595238095238
-  ]
-  edge [
-    source 432
-    target 364
-    co_weight 0.9166666666666666
-  ]
-  edge [
-    source 432
-    target 252
-    co_weight 0.8571428571428572
-  ]
-  edge [
-    source 432
-    target 347
-    co_weight 0.25
-  ]
-  edge [
-    source 432
-    target 348
-    co_weight 0.0
-  ]
-  edge [
-    source 432
-    target 106
-    co_weight 0.7647058823529411
-  ]
-  edge [
-    source 432
-    target 256
-    co_weight 0.8823529411764706
-  ]
-  edge [
-    source 432
-    target 292
-    co_weight 0.8888888888888888
-  ]
-  edge [
-    source 432
-    target 420
-    co_weight 0.9333333333333333
   ]
   edge [
     source 433
