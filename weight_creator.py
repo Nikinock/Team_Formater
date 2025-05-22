@@ -7,7 +7,7 @@ from scipy.stats import chi2
 
 # Пороговые значения для метрик
 JACCARD_THRESHOLD = 0.005
-LIFT_THRESHOLD = 2
+LIFT_THRESHOLD = 1
 CHI_SQUARE_THRESHOLD = 3.841
 
 
@@ -15,18 +15,22 @@ def png_graph_creator():
     plt.figure(figsize=(15, 6))
     # График распределения меры Жаккара
     plt.subplot(1, 2, 1)
-    plt.hist(jaccard_weights, bins=50, alpha=0.7, color='blue')
+    plt.hist(jaccard_weights, bins=50, alpha=0.7, color='blue', range=(0, 0.02))
     plt.title('Распределение меры Жаккара')
     plt.xlabel('Значение меры Жаккара')
     plt.ylabel('Количество пар')
+    plt.xlim(0, 0.02)
     plt.grid(True, alpha=0.3)
+    
     # График распределения метрики Lift
     plt.subplot(1, 2, 2)
-    plt.hist(lift_weights, bins=50, alpha=0.7, color='green')
+    plt.hist(lift_weights, bins=50, alpha=0.7, color='green', range=(0, 20))
     plt.title('Распределение метрики Lift')
     plt.xlabel('Значение метрики Lift')
     plt.ylabel('Количество пар')
+    plt.xlim(0, 3)
     plt.grid(True, alpha=0.3)
+    
     plt.tight_layout()
     plt.savefig('metrics_distribution.png')
     plt.close()
