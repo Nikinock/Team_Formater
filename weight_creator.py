@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from scipy.stats import chi2
 
 # Пороговые значения для метрик
-JACCARD_THRESHOLD = 0.01
-LIFT_THRESHOLD = 10
+JACCARD_THRESHOLD = 0.005
+LIFT_THRESHOLD = 2
 CHI_SQUARE_THRESHOLD = 3.841
 
 
@@ -204,3 +204,53 @@ print("--- Статистика по весам ---")
 print(f"Максимальный вес: {max_weight:.4f}")
 print(f"Минимальный ненулевой вес: {min_weight:.4f}")
 print(f"Средний вес: {avg_weight:.4f}")
+
+def find_max_paths(G, max_paths=5):
+    """Поиск максимальных путей в графе с учетом весов"""
+    print("\n--- Поиск максимальных путей в графе ---")
+    
+    # Создаем неориентированный граф для поиска путей
+    undirected_G = G.to_undirected()
+    
+    # Получаем все пары вершин
+    all_pairs = list(combinations(undirected_G.nodes(), 2))
+    max_paths_list = []
+    
+    print(f"Анализ {len(all_pairs)} возможных пар вершин...")
+    
+    for source, target in all_pairs:
+        try:
+            # Находим все простые пути между вершинами
+            paths = list(nx.all_simple_paths(undirected_G, source, target, cutoff=3))
+            
+            for path in paths:
+                # Считаем сумму весов для пути
+                path_weight = 0
+                for i in range(len(path)-1):
+                    # Берем вес ребра (co_weight)
+                    edge_weight = undirected_G[path[i]][path[i+1]].get('co_weight', 1)
+                    path_weight += edge_weight
+                
+                # Сохраняем путь и его вес
+                max_paths_list.append((path, path_weight))
+                
+        except nx.NetworkXNoPath:
+            continue
+    
+    # Сортируем пути по весу (по убыванию)
+    max_paths_list.sort(key=lambda x: x[1], reverse=True)
+    
+    # Выводим топ-N путей
+    print(f"\nТоп-{max_paths} максимальных путей:")
+    for i, (path, weight) in enumerate(max_paths_list[:max_paths], 1):
+        path_str = " -> ".join(path)
+        print(f"{i}. Путь: {path_str}")
+        print(f"   Общий вес: {weight:.4f}")
+        print(f"   Средний вес на ребро: {weight/(len(path)-1):.4f}")
+        print()
+
+if __name__ == "__main__":
+    # ... existing code ...
+    
+    # После сохранения графа ищем максимальные пути
+    find_max_paths(G)

@@ -3022,6 +3022,11 @@ graph [
     co_weight 1
   ]
   edge [
+    source 10
+    target 11
+    co_weight 0.9375
+  ]
+  edge [
     source 11
     target 51
     relation "IS_A"
@@ -3067,6 +3072,16 @@ graph [
     target 18
     relation "IS_A"
     co_weight 1
+  ]
+  edge [
+    source 17
+    target 420
+    co_weight 0.9375
+  ]
+  edge [
+    source 17
+    target 106
+    co_weight 0.9375
   ]
   edge [
     source 17
@@ -3481,6 +3496,21 @@ graph [
     co_weight 1
   ]
   edge [
+    source 84
+    target 106
+    co_weight 0.9375
+  ]
+  edge [
+    source 84
+    target 204
+    co_weight 0.9375
+  ]
+  edge [
+    source 84
+    target 309
+    co_weight 0.9375
+  ]
+  edge [
     source 85
     target 86
     relation "IS_A"
@@ -3497,6 +3527,11 @@ graph [
     target 8
     relation "IS_A"
     co_weight 1
+  ]
+  edge [
+    source 87
+    target 88
+    co_weight 0.9375
   ]
   edge [
     source 88
@@ -3529,6 +3564,11 @@ graph [
   ]
   edge [
     source 91
+    target 156
+    co_weight 0.9375
+  ]
+  edge [
+    source 91
     target 337
     co_weight 0.9375
   ]
@@ -3549,6 +3589,11 @@ graph [
     target 49
     relation "IS_A"
     co_weight 1
+  ]
+  edge [
+    source 94
+    target 355
+    co_weight 0.9375
   ]
   edge [
     source 95
@@ -3585,6 +3630,11 @@ graph [
     target 84
     relation "IS_A"
     co_weight 1
+  ]
+  edge [
+    source 100
+    target 154
+    co_weight 0.9375
   ]
   edge [
     source 101
@@ -3624,6 +3674,21 @@ graph [
   ]
   edge [
     source 106
+    target 382
+    co_weight 0.9375
+  ]
+  edge [
+    source 106
+    target 403
+    co_weight 0.9375
+  ]
+  edge [
+    source 106
+    target 364
+    co_weight 0.9375
+  ]
+  edge [
+    source 106
     target 353
     co_weight 0.9375
   ]
@@ -3656,6 +3721,11 @@ graph [
     target 18
     relation "IS_A"
     co_weight 1
+  ]
+  edge [
+    source 111
+    target 195
+    co_weight 0.9375
   ]
   edge [
     source 112
@@ -3712,6 +3782,11 @@ graph [
   edge [
     source 118
     target 119
+    co_weight 0.9375
+  ]
+  edge [
+    source 118
+    target 200
     co_weight 0.9375
   ]
   edge [
@@ -3921,6 +3996,11 @@ graph [
     co_weight 0.9375
   ]
   edge [
+    source 149
+    target 176
+    co_weight 0.9375
+  ]
+  edge [
     source 150
     target 49
     relation "IS_A"
@@ -3968,6 +4048,11 @@ graph [
   ]
   edge [
     source 155
+    target 106
+    co_weight 0.9375
+  ]
+  edge [
+    source 155
     target 204
     co_weight 0.9375
   ]
@@ -3976,6 +4061,16 @@ graph [
     target 8
     relation "IS_A"
     co_weight 1
+  ]
+  edge [
+    source 156
+    target 337
+    co_weight 0.9375
+  ]
+  edge [
+    source 156
+    target 338
+    co_weight 0.9375
   ]
   edge [
     source 157
@@ -4069,6 +4164,11 @@ graph [
   ]
   edge [
     source 171
+    target 372
+    co_weight 0.9375
+  ]
+  edge [
+    source 171
     target 252
     co_weight 0.9375
   ]
@@ -4080,6 +4180,11 @@ graph [
   edge [
     source 171
     target 348
+    co_weight 0.9375
+  ]
+  edge [
+    source 171
+    target 195
     co_weight 0.9375
   ]
   edge [
@@ -4117,6 +4222,11 @@ graph [
     target 139
     relation "IS_A"
     co_weight 1
+  ]
+  edge [
+    source 177
+    target 218
+    co_weight 0.9375
   ]
   edge [
     source 178
@@ -4167,6 +4277,11 @@ graph [
     co_weight 1
   ]
   edge [
+    source 185
+    target 358
+    co_weight 0.9375
+  ]
+  edge [
     source 186
     target 49
     relation "IS_A"
@@ -4183,6 +4298,11 @@ graph [
     target 163
     relation "IS_A"
     co_weight 1
+  ]
+  edge [
+    source 188
+    target 365
+    co_weight 0.9375
   ]
   edge [
     source 189
@@ -4221,6 +4341,11 @@ graph [
     co_weight 1
   ]
   edge [
+    source 194
+    target 195
+    co_weight 0.9375
+  ]
+  edge [
     source 195
     target 18
     relation "IS_A"
@@ -4234,6 +4359,11 @@ graph [
   edge [
     source 195
     target 347
+    co_weight 0.9375
+  ]
+  edge [
+    source 195
+    target 312
     co_weight 0.9375
   ]
   edge [
@@ -4257,6 +4387,11 @@ graph [
   edge [
     source 198
     target 367
+    co_weight 0.9375
+  ]
+  edge [
+    source 198
+    target 197
     co_weight 0.9375
   ]
   edge [
@@ -4293,6 +4428,16 @@ graph [
     source 204
     target 106
     relation "IS_A"
+    co_weight 0.9375
+  ]
+  edge [
+    source 204
+    target 382
+    co_weight 0.9375
+  ]
+  edge [
+    source 204
+    target 432
     co_weight 0.9375
   ]
   edge [
@@ -4413,6 +4558,11 @@ graph [
     target 139
     relation "IS_A"
     co_weight 1
+  ]
+  edge [
+    source 223
+    target 337
+    co_weight 0.9375
   ]
   edge [
     source 224
@@ -4577,6 +4727,16 @@ graph [
     co_weight 1
   ]
   edge [
+    source 250
+    target 409
+    co_weight 0.9375
+  ]
+  edge [
+    source 250
+    target 300
+    co_weight 0.9375
+  ]
+  edge [
     source 251
     target 15
     relation "IS_A"
@@ -4611,10 +4771,20 @@ graph [
     co_weight 1
   ]
   edge [
+    source 254
+    target 256
+    co_weight 0.9375
+  ]
+  edge [
     source 255
     target 108
     relation "IS_A"
     co_weight 1
+  ]
+  edge [
+    source 255
+    target 254
+    co_weight 0.9375
   ]
   edge [
     source 256
@@ -4643,6 +4813,11 @@ graph [
   edge [
     source 259
     target 258
+    co_weight 0.9375
+  ]
+  edge [
+    source 259
+    target 403
     co_weight 0.9375
   ]
   edge [
@@ -4759,10 +4934,15 @@ graph [
     co_weight 1
   ]
   edge [
+    source 277
+    target 336
+    co_weight 0.9375
+  ]
+  edge [
     source 278
     target 67
     relation "IS_A"
-    co_weight 1
+    co_weight 0.9375
   ]
   edge [
     source 278
@@ -4858,6 +5038,16 @@ graph [
     co_weight 0.9375
   ]
   edge [
+    source 291
+    target 352
+    co_weight 0.9375
+  ]
+  edge [
+    source 291
+    target 423
+    co_weight 0.9375
+  ]
+  edge [
     source 292
     target 149
     relation "IS_A"
@@ -4893,6 +5083,11 @@ graph [
     co_weight 0.9375
   ]
   edge [
+    source 296
+    target 349
+    co_weight 0.9375
+  ]
+  edge [
     source 297
     target 8
     relation "IS_A"
@@ -4923,7 +5118,22 @@ graph [
   ]
   edge [
     source 300
+    target 50
+    co_weight 0.9375
+  ]
+  edge [
+    source 300
+    target 330
+    co_weight 0.9375
+  ]
+  edge [
+    source 300
     target 352
+    co_weight 0.9375
+  ]
+  edge [
+    source 300
+    target 409
     co_weight 0.9375
   ]
   edge [
@@ -4978,6 +5188,11 @@ graph [
     source 309
     target 106
     relation "IS_A"
+    co_weight 0.9375
+  ]
+  edge [
+    source 309
+    target 382
     co_weight 0.9375
   ]
   edge [
@@ -5116,6 +5331,21 @@ graph [
     co_weight 1
   ]
   edge [
+    source 329
+    target 50
+    co_weight 0.9375
+  ]
+  edge [
+    source 329
+    target 352
+    co_weight 0.9375
+  ]
+  edge [
+    source 329
+    target 0
+    co_weight 0.9375
+  ]
+  edge [
     source 330
     target 9
     relation "IS_A"
@@ -5126,6 +5356,11 @@ graph [
     target 149
     relation "IS_A"
     co_weight 1
+  ]
+  edge [
+    source 331
+    target 349
+    co_weight 0.9375
   ]
   edge [
     source 332
@@ -5216,6 +5451,16 @@ graph [
     co_weight 1
   ]
   edge [
+    source 344
+    target 188
+    co_weight 0.9375
+  ]
+  edge [
+    source 344
+    target 358
+    co_weight 0.9375
+  ]
+  edge [
     source 345
     target 8
     relation "IS_A"
@@ -5244,6 +5489,11 @@ graph [
     co_weight 1
   ]
   edge [
+    source 347
+    target 382
+    co_weight 0.9375
+  ]
+  edge [
     source 348
     target 163
     relation "IS_A"
@@ -5252,6 +5502,11 @@ graph [
   edge [
     source 348
     target 347
+    co_weight 0.9375
+  ]
+  edge [
+    source 348
+    target 382
     co_weight 0.9375
   ]
   edge [
@@ -5284,10 +5539,25 @@ graph [
     co_weight 1
   ]
   edge [
+    source 352
+    target 50
+    co_weight 0.9375
+  ]
+  edge [
+    source 352
+    target 409
+    co_weight 0.9375
+  ]
+  edge [
     source 353
     target 49
     relation "IS_A"
     co_weight 1
+  ]
+  edge [
+    source 353
+    target 382
+    co_weight 0.9375
   ]
   edge [
     source 354
@@ -5365,6 +5635,11 @@ graph [
     target 163
     relation "IS_A"
     co_weight 1
+  ]
+  edge [
+    source 365
+    target 403
+    co_weight 0.9375
   ]
   edge [
     source 366
@@ -5599,6 +5874,11 @@ graph [
     target 51
     relation "IS_A"
     co_weight 1
+  ]
+  edge [
+    source 403
+    target 381
+    co_weight 0.9375
   ]
   edge [
     source 404
