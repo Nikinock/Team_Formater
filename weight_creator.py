@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from scipy.stats import chi2
 
 # Пороговые значения для метрик
-JACCARD_THRESHOLD = 0.005
-LIFT_THRESHOLD = 1
+JACCARD_THRESHOLD = 0.01
+LIFT_THRESHOLD = 10
 CHI_SQUARE_THRESHOLD = 3.841
 
 
@@ -62,41 +62,41 @@ for text in entity_data:
 # Добавление рёбер в граф + сбор статистики по весам
 new_edges_added = 0
 updated_edges = 0
-weights = []
+weights = defaultdict(dict)  # Используем defaultdict для автоматической инициализации
 
 # Подсчёт весов
 for (t1, t2), co_count in co_occurrence_counts.items():
     min_count = min(individual_counts[t1], individual_counts[t2])
     weight = co_count / min_count if min_count > 0 else 0
-    weights.append(weight)
+    weights[t1][t2] = weight
 
 # Статистика по весам
 if weights:
-    max_weight = max(weights)
-    min_weight = min(weights)
-    avg_weight = sum(weights) / len(weights)
+    all_weights = [w for t1 in weights.values() for w in t1.values()]
+    max_weight = max(all_weights)
+    min_weight = min(all_weights)
+    avg_weight = sum(all_weights) / len(all_weights)
 else:
     max_weight = min_weight = avg_weight = 0
 
 # Расчет меры Жаккара, Lift и хи-квадрат
-jaccard_weights = []
-lift_weights = []
-chi_square_weights = []
+jaccard_weights = defaultdict(dict)
+lift_weights = defaultdict(dict)
+chi_square_weights = defaultdict(dict)
 total_documents = len(entity_data)
 
 for (t1, t2), co_count in co_occurrence_counts.items():
-    
     n1 = individual_counts[t1]
     n2 = individual_counts[t2]
     
     # Расчет меры Жаккара
     jaccard = co_count / (n1 + n2 - co_count) if (n1 + n2 - co_count) > 0 else 0
-    jaccard_weights.append(jaccard)
+    jaccard_weights[t1][t2] = jaccard
     
     # Расчет метрики Lift
     expected_co_occurrence = (n1 * n2) / total_documents
     lift = (co_count * total_documents) / (n1 * n2) if (n1 * n2) > 0 else 0
-    lift_weights.append(lift)
+    lift_weights[t1][t2] = lift
     
     # Расчет хи-квадрат
     # Создаем таблицу сопряженности 2x2
@@ -119,19 +119,21 @@ for (t1, t2), co_count in co_occurrence_counts.items():
                   (c - E_c)**2 / E_c + 
                   (d - E_d)**2 / E_d) if (E_a > 0 and E_b > 0 and E_c > 0 and E_d > 0) else 0
     
-    chi_square_weights.append(chi_square)
-    
-    # Проверяем все метрики перед добавлением в граф
-    if (jaccard >= JACCARD_THRESHOLD and 
-        lift >= LIFT_THRESHOLD and 
-        chi_square >= CHI_SQUARE_THRESHOLD):
-        
-        if G.has_edge(t1, t2):
-            G[t1][t2]["co_weight"] = 1 - weight
-            updated_edges += 1
-        else:
-            G.add_edge(t1, t2, co_weight=1 - weight)
-            new_edges_added += 1
+    chi_square_weights[t1][t2] = chi_square
+
+# Изменяем цикл для работы со словарями
+for t1 in weights:
+    for t2 in weights[t1]:
+        weight = weights[t1][t2]
+        if (jaccard_weights[t1][t2] >= JACCARD_THRESHOLD and 
+            lift_weights[t1][t2] >= LIFT_THRESHOLD and 
+            chi_square_weights[t1][t2] >= CHI_SQUARE_THRESHOLD):
+            if G.has_edge(t1, t2):
+                G[t1][t2]["co_weight"] = 1 - weight
+                updated_edges += 1
+            else:
+                G.add_edge(t1, t2, co_weight=1 - weight)
+                new_edges_added += 1
 
 for u, v, g in G.edges(data=True):
     if 'co_weight' not in g or not g['co_weight']:
@@ -141,16 +143,18 @@ png_graph_creator()
 
 # Вывод статистики по обеим метрикам
 if jaccard_weights:
-    max_jaccard = max(jaccard_weights)
-    min_jaccard = min(jaccard_weights)
-    avg_jaccard = sum(jaccard_weights) / len(jaccard_weights)
+    all_jaccard = [w for t1 in jaccard_weights.values() for w in t1.values()]
+    max_jaccard = max(all_jaccard)
+    min_jaccard = min(all_jaccard)
+    avg_jaccard = sum(all_jaccard) / len(all_jaccard)
 else:
     max_jaccard = min_jaccard = avg_jaccard = 0
 
 if lift_weights:
-    max_lift = max(lift_weights)
-    min_lift = min(lift_weights)
-    avg_lift = sum(lift_weights) / len(lift_weights)
+    all_lift = [w for t1 in lift_weights.values() for w in t1.values()]
+    max_lift = max(all_lift)
+    min_lift = min(all_lift)
+    avg_lift = sum(all_lift) / len(all_lift)
 else:
     max_lift = min_lift = avg_lift = 0
 
@@ -166,11 +170,12 @@ print(f"Среднее значение: {avg_lift:.4f}")
 
 # Вывод статистики по хи-квадрат
 if chi_square_weights:
-    max_chi = max(chi_square_weights)
-    min_chi = min(chi_square_weights)
-    avg_chi = sum(chi_square_weights) / len(chi_square_weights)
-    significant_chi_count = sum(1 for x in chi_square_weights if x > CHI_SQUARE_THRESHOLD)
-    p_values = [1 - chi2.cdf(x, 1) for x in chi_square_weights if x > 0]
+    all_chi = [w for t1 in chi_square_weights.values() for w in t1.values()]
+    max_chi = max(all_chi)
+    min_chi = min(all_chi)
+    avg_chi = sum(all_chi) / len(all_chi)
+    significant_chi_count = sum(1 for x in all_chi if x > CHI_SQUARE_THRESHOLD)
+    p_values = [1 - chi2.cdf(x, 1) for x in all_chi if x > 0]
 else:
     max_chi = min_chi = avg_chi = 0
     significant_chi_count = 0
@@ -185,7 +190,13 @@ if p_values:
     print(f"Среднее p-value для значимых связей: {sum(p_values)/len(p_values):.4f}")
 
 # Анализ наиболее значимых связей по хи-квадрат
-significant_chi_pairs = [(t1, t2, chi) for (t1, t2), chi in zip(co_occurrence_counts.keys(), chi_square_weights) if chi > CHI_SQUARE_THRESHOLD]
+significant_chi_pairs = []
+for t1 in chi_square_weights:
+    for t2 in chi_square_weights[t1]:
+        chi = chi_square_weights[t1][t2]
+        if chi > CHI_SQUARE_THRESHOLD:
+            significant_chi_pairs.append((t1, t2, chi))
+
 significant_chi_pairs.sort(key=lambda x: x[2], reverse=True)
 
 print("\n--- Топ-5 наиболее значимых пар по критерию хи-квадрат ---")
