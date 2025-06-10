@@ -7,9 +7,9 @@
                 "surname":"Lemon"
             },
             "skills":[
-                {"sklearn":3},
-                {"python":3},
-                {"numpy":4}
+                {"scikit-learn":0.6},
+                {"python":0.6},
+                {"numpy":0.8}
             ]
         },
         {
@@ -19,9 +19,8 @@
                 "surname":"Loley"
             },
             "skills":[
-                {"python":3},
-                {"dgango":4},
-                {"numpy":5}
+                {"python":0.6},
+                {"numpy":1}
             ]
         },
         {
@@ -31,8 +30,8 @@
                 "surname":"Fix"
             },
             "skills":[
-                {"sklearn":5},
-                {"keras":2}
+                {"scikit-learn":1},
+                {"keras":0.4}
             ]
         },
         {
@@ -42,7 +41,7 @@
                 "surname":"Moles"
             },
             "skills":[
-                {"python":4}
+                {"python":0.8}
             ]
         },
         {
@@ -52,9 +51,9 @@
                 "surname":"Rafor"
             },
             "skills":[
-                {"sklearn":4},
-                {"python":4},
-                {"keras":4}
+                {"scikit-learn":0.8},
+                {"python":0.8},
+                {"keras":0.8}
             ]
         },
         {
@@ -64,10 +63,9 @@
                 "surname":"tomp"
             },
             "skills":[
-                {"sklearn":2},
-                {"python":2},
-                {"jupiter-notebook":5},
-                {"numpy":2}
+                {"scikit-learn":0.4},
+                {"python":0.4},
+                {"numpy":0.4}
             ]
         },
         {
@@ -77,20 +75,15 @@
                 "surname":"Leys"
             },
             "skills":[
-                {"re":2},
-                {"python":4},
-                {"html":5},
-                {"css":4},
-                {"java":4}
+                {"python":0.8}
             ]
         }
     ],
     "project":{
         "requirements": [
-            {"sklearn":4},
-            {"keras":3},
-            {"numpy":5},
-            {"jupiter-notebook":5}
+            {"scikit-learn":0.8},
+            {"keras":0.6},
+            {"numpy":1}
         ],
         "members_quantity": 4
     }

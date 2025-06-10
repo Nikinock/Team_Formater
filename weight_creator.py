@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from scipy.stats import chi2
 
 # Пороговые значения для метрик
-JACCARD_THRESHOLD = 0.01
-LIFT_THRESHOLD = 10
+JACCARD_THRESHOLD = 0.002
+LIFT_THRESHOLD = 1
 CHI_SQUARE_THRESHOLD = 3.841
 
 
